@@ -1,0 +1,80 @@
+{
+  "status": "pass",
+  "tables_checked": 42,
+  "tables_numerically_matched": 42,
+  "table_paths": [
+    "acquisition_union_by_task.csv",
+    "acquisition_union_frequency.csv",
+    "parameter_boundary_frequency.csv",
+    "preprocessing_selection_frequency.csv",
+    "selected_parameter_records.csv.gz",
+    "selected_preprocessing_records.csv.gz",
+    "selection_frequency.csv",
+    "sopls_order_selection_frequency.csv",
+    "benchmark/macro_standardized_mse.csv",
+    "benchmark/nine_modality_addition_edges.csv",
+    "benchmark/subset_and_panel_vs_controls.csv",
+    "benchmark/target_metrics_by_repeat.csv",
+    "benchmark/target_metrics_pooled.csv",
+    "controls/macro_standardized_mse.csv",
+    "controls/nine_modality_addition_edges.csv",
+    "controls/real_vs_shuffled_nir.csv",
+    "controls/subset_and_panel_vs_controls.csv",
+    "controls/target_metrics_by_repeat.csv",
+    "controls/target_metrics_pooled.csv",
+    "learning/learning_macro_by_repeat.csv",
+    "learning/learning_macro_common_scale_by_repeat.csv",
+    "learning/learning_target_metrics.csv",
+    "learning/learning_target_metrics_common_scale.csv",
+    "learning/macro_standardized_mse.csv",
+    "learning/nine_modality_addition_edges.csv",
+    "learning/subset_and_panel_vs_controls.csv",
+    "learning/target_metrics_by_repeat.csv",
+    "learning/target_metrics_pooled.csv",
+    "learning/training_budgets.csv",
+    "preprocessing/macro_standardized_mse.csv",
+    "preprocessing/matched_workflow_effects.csv",
+    "preprocessing/nine_modality_addition_edges.csv",
+    "preprocessing/subset_and_panel_vs_controls.csv",
+    "preprocessing/target_metrics_by_repeat.csv",
+    "preprocessing/target_metrics_pooled.csv",
+    "stability/effects_by_refit.csv",
+    "stability/macro_standardized_mse.csv",
+    "stability/nine_modality_addition_edges.csv",
+    "stability/refit_observed_ranges.csv",
+    "stability/subset_and_panel_vs_controls.csv",
+    "stability/target_metrics_by_repeat.csv",
+    "stability/target_metrics_pooled.csv"
+  ],
+  "comparison_rtol": 1e-12,
+  "comparison_atol": 1e-12,
+  "source_csv_byte_identity_checks": [
+    {
+      "file": "results/baseline/benchmark/predictions.csv.gz",
+      "decompressed_sha256": "0b8251be0da9809b0706615af93e4a631d7f832c76730bb051033ed2cf20722b",
+      "source_hash_equal": true
+    },
+    {
+      "file": "results/baseline/learning/predictions.csv.gz",
+      "decompressed_sha256": "87a9408b5a2ac01d648d209acef1efa98e39d132dfbffd82ea6dcbb2bafaf650",
+      "source_hash_equal": true
+    },
+    {
+      "file": "results/baseline/preprocessing/predictions.csv.gz",
+      "decompressed_sha256": "2befccf1b108fe0fbe1aa95a2a31dac6dc40f2aa21cd7ee344eb3ba4d844d8d2",
+      "source_hash_equal": true
+    },
+    {
+      "file": "results/baseline/stability/predictions.csv.gz",
+      "decompressed_sha256": "7f5f3f97fa5e5ecaa0f8a3e2822a0dae822b7385b1ac2f4339e4ee67ba4e8fda",
+      "source_hash_equal": true
+    },
+    {
+      "file": "results/baseline/controls/predictions.csv.gz",
+      "decompressed_sha256": "43bce320ae178e070b610c689985b19b0ba0db985a4fe0a215d0b90bf35a99da",
+      "source_hash_equal": true
+    }
+  ],
+  "failures": [],
+  "scientific_model_refits": 0
+}

@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "historical_point_tasks_validated": 210,
+  "historical_prediction_rows_validated": 2990724,
+  "historical_benchmark_rmse_max_abs_difference": 0.0,
+  "new_full_task_plan": 255,
+  "new_quick_task_plan": 16,
+  "all_task_cache_names_unique": true,
+  "new_source_config_runtime_signature_stable_on_prepare_resume": true,
+  "n_independent_bottles": 139,
+  "n_targets": 11,
+  "archived_postprocessing": "verified",
+  "new_real_data_model_fits_performed": 0,
+  "scope": "Software, source and historical-result integrity; no new V8 predictive-performance validation"
+}

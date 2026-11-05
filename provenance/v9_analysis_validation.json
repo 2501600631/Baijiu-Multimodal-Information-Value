@@ -1,0 +1,37 @@
+{
+  "status": "pass",
+  "synthetic_tests": 10,
+  "passed": 10,
+  "failed": 0,
+  "new_real_data_models_fitted": 0,
+  "files": [
+    {
+      "path": "v9/analysis.py",
+      "sha256": "b96e687e0e39714a75689baec0213a7cd8c336280ba54915b3b1fa0bda8dceed",
+      "chinese_characters": false,
+      "python_comments": 0,
+      "python_docstrings": 0
+    },
+    {
+      "path": "v9/tests/test_analysis.py",
+      "sha256": "5e4742922c04a2132d2dadc5a6a73a558b5aa8e5dcd697f54491f47ddb7a10a1",
+      "chinese_characters": false,
+      "python_comments": 0,
+      "python_docstrings": 0
+    },
+    {
+      "path": "docs/V9_STATISTICAL_PLAN.md",
+      "sha256": "7b62722f27562335f1bea99e75219bdcb43a45802d13453e3bd841d7474fc6a4",
+      "chinese_characters": false,
+      "python_comments": null,
+      "python_docstrings": null
+    }
+  ],
+  "complete_joined_parameter_rows": 330,
+  "complete_old_new_selection_rows": 660,
+  "complete_selected_stage_rows": 825,
+  "complete_primary_panel_family": 5,
+  "complete_primary_target_family": 55,
+  "complete_secondary_panel_family": 2,
+  "complete_secondary_target_family": 22
+}

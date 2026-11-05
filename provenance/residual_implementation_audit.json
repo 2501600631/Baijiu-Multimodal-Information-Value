@@ -1,0 +1,30 @@
+{
+  "status": "pass",
+  "python": "3.8.3",
+  "meaningful_synthetic_tests_passed": 7,
+  "real_data_model_fits": 0,
+  "frozen_source_modified": false,
+  "files": [
+    {
+      "path": "outputs/Baijiu_Information_Value_V8_20261104/v8/residual.py",
+      "sha256": "7f1acd5df0d31fe18c952100225c5e74bc33704518789021176efb0749e652cf",
+      "comment_tokens": 0,
+      "docstrings": 0
+    },
+    {
+      "path": "outputs/Baijiu_Information_Value_V8_20261104/v8/tests/test_residual.py",
+      "sha256": "e0735da0855b9bed5ff9d0e819c4b2a62c3efb14bd1a42fc610df664e29ed738",
+      "comment_tokens": 0,
+      "docstrings": 0
+    }
+  ],
+  "runner_audit_findings": [
+    "Bind the fifteen archived benchmark payloads to V8 execution signature",
+    "Protect all frozen directories from custom output paths"
+  ],
+  "scientific_scope": [
+    "Target-specific raw-MSE parameter tuning within each multiplier, then equal-weight standardized shared gate",
+    "Positive residual gate may include different base-alpha selection and a correction intercept",
+    "The diagnostic tests two-stage prediction utility, not chemical selectivity or universal conditional independence"
+  ]
+}

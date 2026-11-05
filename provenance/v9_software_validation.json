@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "new_synthetic_tests": 43,
+  "core_tests": 18,
+  "analysis_tests": 10,
+  "runner_tests": 15,
+  "all_public_names_and_text_english": true,
+  "python_files_checked": 44,
+  "python_comments": 0,
+  "python_docstrings": 0,
+  "preserved_files_byte_identical": 662,
+  "parent_v8_tasks_preserved": 255,
+  "new_expected_real_tasks": 15,
+  "new_real_model_fits": 0,
+  "fit_arithmetic": "AST-equivalent frozen kernel body with only scalar/vector entry and requested-count indexing adaptation",
+  "scope": "Synthetic software and immutable-parent validation do not establish new predictive performance"
+}

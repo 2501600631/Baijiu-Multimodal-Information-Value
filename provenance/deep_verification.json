@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "issues": [],
+  "deep": true,
+  "validated_point_tasks": 210,
+  "validated_prediction_rows": 2990724,
+  "benchmark_rmse_max_abs_difference": 0.0,
+  "model_fits_performed": 0
+}

@@ -1,0 +1,55 @@
+{
+  "status": "pass",
+  "historical_synthetic_tests": {
+    "count": 57,
+    "passed": 57,
+    "failed": 0
+  },
+  "new_synthetic_tests": {
+    "count": 44,
+    "passed": 44,
+    "failed": 0,
+    "analysis": 7,
+    "core_engine": 16,
+    "residual": 7,
+    "runner": 14
+  },
+  "total_synthetic_tests": 101,
+  "synthetic_eight_condition_integration": "pass",
+  "all_fifteen_historical_benchmark_cache_validation": "pass",
+  "archived_prediction_postprocessing": "pass_without_model_fits",
+  "full_plan_prepare": {
+    "expected_tasks": 255,
+    "completed_tasks": 0,
+    "prediction_rows": 0
+  },
+  "author_validation_runtime": {
+    "python": "3.8.3",
+    "numpy": "1.23.5",
+    "scipy": "1.10.1",
+    "pandas": "1.5.3",
+    "sklearn": "1.1.3",
+    "matplotlib": "3.7.2",
+    "Pillow": "7.2.0",
+    "threadpoolctl": "3.5.0"
+  },
+  "dependency_pin_scope": "Pillow 10.4.0 is the declared installation pin; synthetic code checks were executed with the available Pillow 7.2.0. New numerical runs record their actual installed environment.",
+  "scientific_real_data_model_fits": 0,
+  "quick_actual_data_profile_run": false,
+  "full_actual_data_profile_run": false,
+  "scientific_performance_claim": "No new model-performance result follows from these software checks",
+  "commands": [
+    "python -B -X utf8 -m unittest discover -s executed/tests -v",
+    "python -B -X utf8 -m unittest discover -s v8/tests -v",
+    "python -B -X utf8 -m v8.runner --profile full --stage prepare --out <workspace_prepare_only_folder>"
+  ],
+  "public_style": {
+    "english_filenames": true,
+    "english_source_text": true,
+    "python_comments": 0,
+    "python_docstrings": 0,
+    "python_files": 35
+  },
+  "historical_files_byte_identical": 339,
+  "new_real_data_fits": 0
+}

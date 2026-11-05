@@ -1,0 +1,35 @@
+{
+  "included_stages": [
+    "benchmark",
+    "learning",
+    "preprocessing",
+    "stability",
+    "controls"
+  ],
+  "all_targets_equally_retained": [
+    "acetaldehyde",
+    "methanol",
+    "n_propanol",
+    "ethyl_acetate",
+    "isobutanol",
+    "acetal",
+    "n_butanol",
+    "isoamyl_alcohol",
+    "ethyl_butyrate",
+    "ethyl_lactate",
+    "ethyl_hexanoate"
+  ],
+  "inclusion_rule": "Scientific scope defined by point prediction, whole-panel modality selection, controlled training sizes, preprocessing sensitivity and selection stability; positive, null and negative outcomes are all retained.",
+  "historical_exclusion": {
+    "stage": "reliability",
+    "completed_tasks": 15,
+    "reason": "Interval reporting is outside the current study questions; this is a scope exclusion, not a claim that the historical tasks were unperformed."
+  },
+  "original_execution_signature": "c7c4bd84803d5d3f0fd5670fc7355e99d387d1ec58713d3326e175fc856b7592",
+  "original_task_count": 225,
+  "recorded_task_count": 210,
+  "recorded_point_prediction_rows": 2990724,
+  "models_refitted_for_release": false,
+  "source_workbooks_released_as_english_equivalent_exports": true,
+  "native_instrument_scans_available": false
+}

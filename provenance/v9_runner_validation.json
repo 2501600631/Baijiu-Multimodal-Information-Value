@@ -1,0 +1,22 @@
+{
+  "status": "pass",
+  "synthetic_runner_tests": 15,
+  "passed": 15,
+  "failed": 0,
+  "actual_real_data_fits": 0,
+  "source": "outputs\\Baijiu_Information_Value_V9_SO_PLS_PerBlock_20261104\\v9\\tests\\test_runner.py",
+  "test_sha256": "c9957c6bb35386063d19b8a1638fbd4ebcad03b54622e4b325dee57def0ef8ec",
+  "runner_sha256": "d7e22874c4d7317313d2f5474469b0e54fe8bf005ee7eec6015926ee8c1fdd41",
+  "python38_syntax": true,
+  "python_comments": 0,
+  "python_docstrings": 0,
+  "coverage": [
+    "paired two-mask eleven-target evaluation",
+    "evaluation label independence",
+    "role/scale/vector/order corruption",
+    "cache SHA and signature",
+    "parent255 plus extension15 status",
+    "strict abort and failure report",
+    "old results directory protection"
+  ]
+}

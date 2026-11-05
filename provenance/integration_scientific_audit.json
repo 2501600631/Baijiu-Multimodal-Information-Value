@@ -1,0 +1,50 @@
+{
+  "status": "pass_with_minor_reporting_recommendations",
+  "reviewed_files": {
+    "v8/runner.py": "6698826400319e8d2ff37bb112bf0b6bfaa2673f85ecfee9170887d1f0e18113",
+    "v8/engine.py": "6dda0124a588aa197ef22e6c719b51d438a55fd4c8ae97488ab8df9f5bbc8616",
+    "v8/analysis.py": "ea8e60ee09b1e60810d52c4291514e607cdf3ac58e817487aa35633ffaf3bb25",
+    "configs/v8_full.json": "80d29f41ef0b93da9da2d7caa461ae7bfe35b7bdc9dd16ee65ebbae38b2a32c6",
+    "configs/v8_quick.json": "f941740c6ada4b8dfe76f814e3101d4f5eabf0c65f86ad8fd8d497fa63abfe01"
+  },
+  "model_fits_on_real_data": 0,
+  "meaningful_synthetic_unit_tests_passed_at_audit": 30,
+  "end_to_end_synthetic_conditions_passed": 8,
+  "full_task_plan_count": 255,
+  "full_task_cache_names_unique": true,
+  "critical_unresolved_issues": [],
+  "confirmed": [
+    "Fifteen archived benchmark sources now included in execution signature",
+    "Protected output directories include frozen code, results, data and figures paths",
+    "Matching outer test labels only added to records after fitting and selection",
+    "Duplicated bootstrap identities grouped in inner validation",
+    "Zero NIR spectral class and zero residual gate use U+R and count two modalities",
+    "Positive common gate uses all three modalities consistently across eleven targets",
+    "Target-specific raw-MSE tuning precedes equally weighted standardized shared selection",
+    "All paired comparisons match repeat/fold/bottle/target and training scales",
+    "Conditional bootstrap draws shared across targets and algorithms while preserving visits",
+    "Learning and training-refit contexts excluded from full-size conditional inference",
+    "Approximate corrected-CV test is labeled separately and Holm family is explicit",
+    "All original results remain frozen and new outputs separated"
+  ],
+  "minor_reporting_recommendations": [
+    {
+      "location": "v8.analysis.panel_metrics",
+      "issue": "Pooled by-repeat panels currently retain first training count only, dropping min/max already available in target_metrics; expose training count ranges for mixed 111/112 outer fits. Numerical metrics unaffected.",
+      "reported_to_root": true
+    },
+    {
+      "location": "Documentation",
+      "issue": "NIR weights are squared-distance weights; feature blocks multiplied by sqrt(weight). Balanced budgets equalize candidate counts but not latent dimensions or every selection-noise component.",
+      "reported_to_root": true
+    },
+    {
+      "location": "Documentation",
+      "issue": "Holm families cover algorithms by targets per contrast/context, not all conditions and nine edges jointly. Fixed-prediction CIs remain conditional descriptive intervals."
+    },
+    {
+      "location": "Residual interpretation",
+      "issue": "Residual baseline is declared raw U+R ridge with its own finite alpha grid, not necessarily the best historical P5 model; positive correction utility can include intercept and base-alpha retuning."
+    }
+  ]
+}

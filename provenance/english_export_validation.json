@@ -1,0 +1,70 @@
+[
+  {
+    "modality": "uv",
+    "source_workbook_sha256": "6a5c345d594fa8e34cc2a35a2d23d3968750c38f34a1268a46061adeb7a52598",
+    "recorded_file": "data/english_measurement_exports/uv_measurements.xlsx",
+    "recorded_sha256": "918430a9f05857fcd9858337b94e278bb5b2b38cff33ac10ef7bff9f98bea13d",
+    "label_translation_only": true,
+    "all_nontranslated_cells_equal_in_value_and_type": true,
+    "sheets": [
+      {
+        "translated_sheet_name": "Absorbance",
+        "rows": 912,
+        "columns": 140,
+        "translated_text_cells": 1,
+        "unchanged_numeric_or_numeric_text_cells": 127679
+      }
+    ]
+  },
+  {
+    "modality": "raman",
+    "source_workbook_sha256": "3e9e86dce159cd0e5838574811c2336f3d3fb818f39b76843a6f7bfbe4752f02",
+    "recorded_file": "data/english_measurement_exports/raman_measurements.xlsx",
+    "recorded_sha256": "d765b905356d80f97cf31a318524b552dd19426de8a0cdab69936224beaacd8f",
+    "label_translation_only": true,
+    "all_nontranslated_cells_equal_in_value_and_type": true,
+    "sheets": [
+      {
+        "translated_sheet_name": "Raman intensity",
+        "rows": 1020,
+        "columns": 140,
+        "translated_text_cells": 0,
+        "unchanged_numeric_or_numeric_text_cells": 142799
+      }
+    ]
+  },
+  {
+    "modality": "nir",
+    "source_workbook_sha256": "7615fa9038bfe43194069517631bc95f33ca5aa992dd0e52fe6a2fae6c179c08",
+    "recorded_file": "data/english_measurement_exports/nir_measurements.xlsx",
+    "recorded_sha256": "05b8b98c7182f767dc5023424f0cee6f884ad944af66b70a3997d017b76465db",
+    "label_translation_only": true,
+    "all_nontranslated_cells_equal_in_value_and_type": true,
+    "sheets": [
+      {
+        "translated_sheet_name": "Absorbance",
+        "rows": 1002,
+        "columns": 140,
+        "translated_text_cells": 1,
+        "unchanged_numeric_or_numeric_text_cells": 140279
+      }
+    ]
+  },
+  {
+    "modality": "chemistry",
+    "source_workbook_sha256": "54d4b09b609913d2b0f7163b46daa7666d5a273ba2a1ae7a83a3a7e4e22502a4",
+    "recorded_file": "data/english_measurement_exports/chemistry_measurements.xlsx",
+    "recorded_sha256": "12f4d5ef371c8c9aa3bffcf2d3e67c2a30217fe06ae5b0f53fd553772b878421",
+    "label_translation_only": true,
+    "all_nontranslated_cells_equal_in_value_and_type": true,
+    "sheets": [
+      {
+        "translated_sheet_name": "Reference measurements",
+        "rows": 140,
+        "columns": 23,
+        "translated_text_cells": 718,
+        "unchanged_numeric_or_numeric_text_cells": 2502
+      }
+    ]
+  }
+]
