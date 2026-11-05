@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+.git/
+work/
+runs/
+~$*
+.DS_Store

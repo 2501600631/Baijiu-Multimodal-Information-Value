@@ -1,0 +1,100 @@
+{
+  "status": "completed_rows_postprocessed",
+  "execution_status": "all_requested_stages_complete",
+  "analysis_source_sha256": "ea8e60ee09b1e60810d52c4291514e607cdf3ac58e817487aa35633ffaf3bb25",
+  "model_fits_performed": 0,
+  "source": "predictions.csv.gz",
+  "source_sha256": "03a0b0abed486c89969b4d098783dafb27aa10e9e12b23056301a87d7607950b",
+  "n_independent_bottles": 139,
+  "n_test_bottles_represented": 139,
+  "tables": {
+    "fold_target_metrics": {
+      "path": "derived/fold_target_metrics.csv",
+      "rows": 13530,
+      "sha256": "834fce714e022b55e36a036cc1f0b526966dc7e70614e35b5038d282848852c4"
+    },
+    "fold_panel_metrics": {
+      "path": "derived/fold_panel_metrics.csv",
+      "rows": 1230,
+      "sha256": "939e7b7fb078632cee1a2799c924d98d71bc5b74bbf416748da64671cfb1ce21"
+    },
+    "pooled_target_metrics": {
+      "path": "derived/pooled_target_metrics.csv",
+      "rows": 902,
+      "sha256": "101ff99da756150c65f975e4d3517a301cd8e6e66f6fd2404878b6643dc079ce"
+    },
+    "panel_by_repeat_and_refit": {
+      "path": "derived/panel_by_repeat_and_refit.csv",
+      "rows": 246,
+      "sha256": "7a16cb0675965a4dace6e141c26ce879828fded42852776c230b946a90ecdac1"
+    },
+    "acquisition_by_task": {
+      "path": "derived/acquisition_by_task.csv",
+      "rows": 1230,
+      "sha256": "7755935beb306ac1fc8c8c1beef62c783bd29536c67819352be2df80a9936a32"
+    },
+    "acquisition_frequency": {
+      "path": "derived/acquisition_frequency.csv",
+      "rows": 53,
+      "sha256": "2e9f85980eefe84617516cecc3241f445750f5912ca291f608576242c5a2cfc5"
+    },
+    "paired_target_effects": {
+      "path": "derived/paired_target_effects.csv",
+      "rows": 451,
+      "sha256": "d1cc3ad319ef7256f455ec5f220181dc1c6607e52896e7e687efaaa125496a33"
+    },
+    "paired_panel_effects": {
+      "path": "derived/paired_panel_effects.csv",
+      "rows": 41,
+      "sha256": "e4f3fb13c453f547fcaf86d9fe305f0f192eec1e870d97870c67433626dde8ff"
+    },
+    "target_observed_budget_or_refit_ranges": {
+      "path": "derived/target_observed_budget_or_refit_ranges.csv",
+      "rows": 55,
+      "sha256": "93fb44cec14443ae902b4449d743ba42e60bed2d8331405573406100d8544574"
+    },
+    "panel_observed_budget_or_refit_ranges": {
+      "path": "derived/panel_observed_budget_or_refit_ranges.csv",
+      "rows": 5,
+      "sha256": "f752edefcca3ec187db56270dcef11774cfaa86c909e4ef49d59278c00a86340"
+    },
+    "target_conditional_intervals": {
+      "path": "derived/target_conditional_intervals.csv",
+      "rows": 374,
+      "sha256": "67e856833d779690081dfb64948e9ca4b40c8f45e690510d63be5c00dfa908f8"
+    },
+    "panel_conditional_intervals": {
+      "path": "derived/panel_conditional_intervals.csv",
+      "rows": 34,
+      "sha256": "f278a6aba5abbac5338305b51c8ac61664959c6f071f1530ad4ba87e744630d3"
+    },
+    "target_corrected_cv_sensitivity": {
+      "path": "derived/target_corrected_cv_sensitivity.csv",
+      "rows": 374,
+      "sha256": "78529c53b300b786fd89b61f940b35457a2733015e1f493b856c8d56e7850e54"
+    },
+    "panel_corrected_cv_sensitivity": {
+      "path": "derived/panel_corrected_cv_sensitivity.csv",
+      "rows": 34,
+      "sha256": "8237b7ab42705d442646423bc544f3d1c77f6c8a3648a0f1261808b64be62d3a"
+    },
+    "conditional_context_status": {
+      "path": "derived/conditional_context_status.csv",
+      "rows": 41,
+      "sha256": "f7e640d0c031f24655dd943d3457bdb7146b4c0ec080add38c1ed0461bfb051b"
+    }
+  },
+  "statistics": {
+    "n_bottles": 139,
+    "draws": 2000,
+    "seed": 20261104,
+    "draw_indices_sha256": "f2afe9ea0d8924eeb7d9bc3e9eec76274929b32fbef18942132b8cb6cbc2e30a",
+    "pairing": "One shared bottle draw index matrix for every target, model and comparison; all visits remain together",
+    "intervals": "Conditional paired bottle bootstrap of frozen OOF losses; no refitting, cross-bottle training dependence correction or multiplicity guarantee",
+    "corrected_cv": "Approximate corrected repeated-CV sensitivity; not an exact test and not independent external validation"
+  },
+  "conditional_intervals": "Only complete paired full-size three-repeat fivefold contexts with distinct training bottles",
+  "learning_and_stability": "Descriptive matched summaries; ranges and frequencies are not confidence intervals",
+  "delta_mse_direction": "after_minus_before; positive means after worsens",
+  "target_gain_direction": "positive gain means after improves"
+}

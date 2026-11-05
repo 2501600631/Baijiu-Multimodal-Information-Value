@@ -1,0 +1,326 @@
+{
+  "context": {
+    "analysis_scope": "Retrospective same-cohort extension with frozen archived bottle identities",
+    "archived_benchmark_files": {
+      "benchmark_r0_f0_cenhanced_nfull_b-1.json.gz": "365a80fc9584ad788c04af5df6524fcd79756cdd9359ee9a391e9a84940650de",
+      "benchmark_r0_f1_cenhanced_nfull_b-1.json.gz": "5dcce5b7b1214194bb220b0352f98291ce2593c8eccbcaab75c1fcae9fb1ea7f",
+      "benchmark_r0_f2_cenhanced_nfull_b-1.json.gz": "147856fe17d3c7f348631716256353dbcad3ffb3154e00b9f6711d82c79ae8cd",
+      "benchmark_r0_f3_cenhanced_nfull_b-1.json.gz": "171ea2449e468bd8f67c4dac6f546603f1bdb4ec460f8d54f3fb0ed7db9472e3",
+      "benchmark_r0_f4_cenhanced_nfull_b-1.json.gz": "79d564b393c6e9d87a068c16ff24881e6463b76b2364936f8a0d7f240ed90cac",
+      "benchmark_r1_f0_cenhanced_nfull_b-1.json.gz": "80308e4efa279d18298eea4d99b413e9c031f9a056d5b3e3f87d707442a88e02",
+      "benchmark_r1_f1_cenhanced_nfull_b-1.json.gz": "1c4ac82a954dec059dd5140b7a06a868a59c40451b46fb3d2cf28d7a7c254df9",
+      "benchmark_r1_f2_cenhanced_nfull_b-1.json.gz": "897e0e39335b8157b027a3c68073f06403058dfd2593b75bc41735f00aa686c7",
+      "benchmark_r1_f3_cenhanced_nfull_b-1.json.gz": "84cf5fb41206358e072716fec6220443093b4fa1514a183e2e8136e2861bd3c5",
+      "benchmark_r1_f4_cenhanced_nfull_b-1.json.gz": "2284285b3e54cad8326a1ba004bcd827e93d841f0c0451a923678b2b8f26bacb",
+      "benchmark_r2_f0_cenhanced_nfull_b-1.json.gz": "64bb42f1b38894a8bc0e344caf68c9941e3417da590337bb0c0c07af5616d8dc",
+      "benchmark_r2_f1_cenhanced_nfull_b-1.json.gz": "4b3e9a2beadbdd02fe72fcf816b30b1ae0ca3e476b86b63a52acd86eac073be0",
+      "benchmark_r2_f2_cenhanced_nfull_b-1.json.gz": "63189a3fe290e5534c47279a6bd7c68be7bbfeed25d3fcacd50a1e41038ce08a",
+      "benchmark_r2_f3_cenhanced_nfull_b-1.json.gz": "72c94ce846486eca3a3b51a170c056c29c0fefc966f00c5567670721ed57a41c",
+      "benchmark_r2_f4_cenhanced_nfull_b-1.json.gz": "c17fffa1022e96d3477bad0835c3c2e24e3f16f320cba086392969605f6c1657"
+    },
+    "config": {
+      "algorithms": [
+        "pls",
+        "ridge",
+        "krr",
+        "sopls"
+      ],
+      "bootstrap_refits": 5,
+      "expected_bottles": 139,
+      "freeze_rule": "Freeze this configuration and retain every target, model, condition and null or adverse outcome.",
+      "grid": {
+        "krr_alphas": [
+          0.0001,
+          0.001,
+          0.01,
+          0.1,
+          1,
+          10
+        ],
+        "krr_gammas": [
+          0.01,
+          0.1,
+          0.3,
+          1,
+          3
+        ],
+        "pls_components": [
+          2,
+          5,
+          10,
+          15,
+          20
+        ],
+        "ridge_alphas": [
+          0.0001,
+          0.001,
+          0.01,
+          0.1,
+          1,
+          10,
+          100
+        ],
+        "sopls_components": [
+          1,
+          2,
+          3,
+          5,
+          10
+        ]
+      },
+      "inference_scope": "Paired conditional fixed-prediction intervals; corrected repeated-CV tests are approximate sensitivity analyses",
+      "inner_folds": 3,
+      "learning_sizes": [
+        40,
+        70
+      ],
+      "legacy_grid": {
+        "krr_alphas": [
+          0.01,
+          0.1,
+          1
+        ],
+        "krr_gammas": [
+          0.3,
+          1,
+          3
+        ],
+        "pls_components": [
+          2,
+          5,
+          10
+        ],
+        "ridge_alphas": [
+          0.01,
+          0.1,
+          1,
+          10
+        ],
+        "snv": [
+          false,
+          true
+        ]
+      },
+      "outer_folds": 5,
+      "panel_scope": "Shared acquisition subset. Tolerances are predictive-error sensitivities, not clinically or analytically justified noninferiority margins.",
+      "panel_tolerances": [
+        0,
+        0.02,
+        0.05,
+        0.1
+      ],
+      "physical_preprocessing_scope": "Numerical sensitivity candidates; source units and instrument settings still require record confirmation. No water or ethanol subtraction or hard cropping.",
+      "preprocessing_options": {
+        "nir": [
+          "raw",
+          "snv",
+          "sg1"
+        ],
+        "raman": [
+          "raw",
+          "snv",
+          "baseline_snv"
+        ],
+        "uv": [
+          "raw"
+        ]
+      },
+      "preprocessing_settings": {
+        "baseline_asymmetry": 0.01,
+        "baseline_iterations": 10,
+        "baseline_lambda": 100000,
+        "sg_polyorder": 2,
+        "sg_window": 11
+      },
+      "primary_target": null,
+      "profile": "full",
+      "release_version": "8.0.0",
+      "repeats": 3,
+      "seed": 20261029,
+      "sopls_preprocessing_options": {
+        "nir": [
+          "raw",
+          "snv",
+          "sg1"
+        ],
+        "raman": [
+          "raw",
+          "snv",
+          "baseline_snv"
+        ],
+        "uv": [
+          "raw"
+        ]
+      },
+      "sopls_scope": "Single-response SO-PLS with all block orders and uniform declared components perblock; same physical preprocessing options as other algorithms. Total latent dimension can differ across masks.",
+      "statistical_bootstrap_draws": 2000,
+      "statistics_seed": 20261104,
+      "study_status": "Retrospective extension of the previously examined 139-bottle cohort; no new external data",
+      "summary_make_figures": false,
+      "target_weighting": "All eleven endpoints equally weighted after receiving-training response variance standardization",
+      "v8": {
+        "balanced_draws": 5,
+        "balanced_seed_offset": 1700000,
+        "new_conditions": [
+          "unscaled",
+          "nir_extended",
+          "nir_intervals",
+          "balanced_budget",
+          "nir_weight",
+          "residual",
+          "nir_weight_learning",
+          "nir_weight_stability"
+        ],
+        "nir_interval_regions": 3,
+        "nir_weights": [
+          0,
+          0.25,
+          1,
+          4
+        ],
+        "residual_base_alphas": [
+          0.01,
+          0.1,
+          1,
+          10
+        ],
+        "residual_correction_alphas": [
+          0.01,
+          0.1,
+          1,
+          10
+        ],
+        "residual_multipliers": [
+          0,
+          0.5,
+          1
+        ],
+        "residual_subfolds": 3,
+        "weight_bootstrap_refits": 5
+      },
+      "version": "V8 NIR marginal value and selection stability"
+    },
+    "historical_protocol_sha256": "ca8ffa90334484bb7bd7835c44f6c07d26896d6c2c22c0c306ce58e7809dc4f0",
+    "input_files": {
+      "executed/data/chemistry.csv": "5b0ad0904b623cbfc5e72b54f7451854132015cc021dbab65e973b75019f4907",
+      "executed/data/outer_splits.json": "5f6456d6c5028cd9bff6c8f250d1ca56701853410cbc5f7d9c05f724b664a200",
+      "executed/data/spectra_nir.npz": "a5a7bf6556a3004f7a2032111de19f6f01405629f642404829cb0b7d59df0600",
+      "executed/data/spectra_raman.npz": "db827fea8f4bb59c95aa0e8263f88daf27a2587f42169aeb9bfdfe274f4eb95c",
+      "executed/data/spectra_uv.npz": "340d7ffc25526acc260461b63d895284b92dca122c0375c1e7d163e6e7886a3b"
+    },
+    "n_bottles": 139,
+    "runtime": {
+      "float64": {
+        "bits": 64,
+        "eps": 2.220446049250313e-16,
+        "max": 1.7976931348623157e+308
+      },
+      "float_info": {
+        "mant_dig": 53,
+        "rounds": 1
+      },
+      "machine": "AMD64",
+      "numpy_configuration": "openblas64__info:\n    library_dirs = ['<historical_environment>/openblas64__info']\n    libraries = ['openblas64__info']\n    language = f77\n    define_macros = [('HAVE_CBLAS', None), ('BLAS_SYMBOL_SUFFIX', '64_'), ('HAVE_BLAS_ILP64', None)]\nblas_ilp64_opt_info:\n    library_dirs = ['<historical_environment>/openblas64__info']\n    libraries = ['openblas64__info']\n    language = f77\n    define_macros = [('HAVE_CBLAS', None), ('BLAS_SYMBOL_SUFFIX', '64_'), ('HAVE_BLAS_ILP64', None)]\nopenblas64__lapack_info:\n    library_dirs = ['<historical_environment>/openblas64__lapack_info']\n    libraries = ['openblas64__lapack_info']\n    language = f77\n    define_macros = [('HAVE_CBLAS', None), ('BLAS_SYMBOL_SUFFIX', '64_'), ('HAVE_BLAS_ILP64', None), ('HAVE_LAPACKE', None)]\nlapack_ilp64_opt_info:\n    library_dirs = ['<historical_environment>/openblas64__lapack_info']\n    libraries = ['openblas64__lapack_info']\n    language = f77\n    define_macros = [('HAVE_CBLAS', None), ('BLAS_SYMBOL_SUFFIX', '64_'), ('HAVE_BLAS_ILP64', None), ('HAVE_LAPACKE', None)]\nSupported SIMD extensions in this NumPy install:\n    baseline = SSE,SSE2,SSE3\n    found = SSSE3,SSE41,POPCNT,SSE42,AVX,F16C,FMA3,AVX2,AVX512F,AVX512CD,AVX512_SKX,AVX512_CLX,AVX512_CNL,AVX512_ICL\n    not found = \n",
+      "numpy_error_policy": {
+        "divide": "warn",
+        "invalid": "warn",
+        "over": "warn",
+        "under": "ignore"
+      },
+      "packages": {
+        "Pillow": "10.4.0",
+        "matplotlib": "3.7.2",
+        "numpy": "1.23.5",
+        "openpyxl": "3.1.5",
+        "pandas": "1.5.3",
+        "scikit-learn": "1.1.3",
+        "scipy": "1.10.1",
+        "threadpoolctl": "3.5.0"
+      },
+      "python": "3.8.3",
+      "requested_threads": {
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1"
+      },
+      "system": "Windows",
+      "threadpools": [
+        {
+          "architecture": "Zen",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libopenblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.20"
+        },
+        {
+          "architecture": "Zen",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libopenblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.18"
+        },
+        {
+          "architecture": null,
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "vcomp",
+          "threading_layer": null,
+          "user_api": "openmp",
+          "version": null
+        }
+      ]
+    },
+    "source_files": {
+      "executed/check_environment.py": "a90bd41b28e41165ea28b204739d330790ceffc2e85f7b0a520182ba87010765",
+      "executed/data_io.py": "29ee5a578f4845fea421ff75889902eb4549ecbe3112f128667f52421ba89650",
+      "executed/engine.py": "ef2e8e249bb346c1e72392da35bd87ffab181e9296a77ca0826c3f56316ec152",
+      "executed/legacy_engine.py": "547d0ad45a9f017908b3e6e48bf7270208dadf844d42531d33920e97d12fc4a8",
+      "executed/legacy_summary.py": "23bd9f21211ed02d2a515243f952890bed7ed7cef04fa231bcc554a5caacbfc9",
+      "executed/plots.py": "33905d543add3d5d64d2eede25d52d3523d776e551d60fc47c1bbb729e41f71d",
+      "executed/preprocessing.py": "1801dee09ffdbf75156335f82c6d685563978f8331778f56f9a6a3bf6b2247ec",
+      "executed/run.py": "c3320a4c32403b1b11de9944d40640b6e1ed98de05fabd935d547bf2ed241bc1",
+      "executed/sopls.py": "870c758db41f131ebc711ca7d144ccf91e5ef8837a5060954fa8f5b3c34f691e",
+      "executed/summarize.py": "510bef53b86813285c2d13b424f3ceb4133ddaa55a01842b7b1c6376bf25d27a",
+      "executed/tests/test_engine.py": "48e42cbd826b0c6ab52a850edd5855e244bb7c261f9cdd0903806435e433091c",
+      "executed/tests/test_preprocessing.py": "6572874aee82f1caebda4f79ed22bbd39c69051355fcea1df2f5d88c3b102990",
+      "executed/tests/test_runner.py": "e8b1c05fe6e61854ef009b46de9e3b03df32f06f3bad15f639d6a52789e9340c",
+      "executed/tests/test_sopls.py": "37ee6a486caaf1aeb707e1c9da8fc3a055a88687343369f38471347c0fe334cd",
+      "executed/tests/test_summary.py": "c2c7335fc5fe6d6794009be9b5bdf36046139292ff22d92b3ac4d6061a4050d9",
+      "executed/tests/test_uncertainty.py": "bc45480d773c6af098037aabc7c020c5aa6f54a134eb5f0c70f0d6849c9565c4",
+      "executed/uncertainty.py": "2025231207549943849c128191963e7205219072e43451585c1e1a0900767cce",
+      "executed/validate_release.py": "a408454c068883b673e9e358962c8dc502dea12820cac5a62d35bb4f921a8c45",
+      "executed/view_legacy.py": "c5421709d6becd4b7861f9ed3ed1d0a9507eea14f081561b8803ee23ef0f5a19",
+      "v8/__init__.py": "d3da01725e6b3952d0f798cff43948a1de0aa21dcad68029e486c71d0f02f900",
+      "v8/analysis.py": "ea8e60ee09b1e60810d52c4291514e607cdf3ac58e817487aa35633ffaf3bb25",
+      "v8/engine.py": "6dda0124a588aa197ef22e6c719b51d438a55fd4c8ae97488ab8df9f5bbc8616",
+      "v8/environment.py": "de71ad76359dcfc01698334076245c85e7df8b94088d27b30160352fcc80e6e1",
+      "v8/residual.py": "7f1acd5df0d31fe18c952100225c5e74bc33704518789021176efb0749e652cf",
+      "v8/runner.py": "96acac1d05b31b3c5c80bcd2bc106ef71389f68ec051d25b6ee3478c44d64dc8",
+      "v8/tests/test_analysis.py": "42b58f52427ac4ddcddd643ca834f1d7a57f2228954f7b36186b92a65445c2e8",
+      "v8/tests/test_engine.py": "b42cd728e1b17de7f0f2946f36b31941803f4ea5f80db1616954b1ff83484901",
+      "v8/tests/test_residual.py": "e0735da0855b9bed5ff9d0e819c4b2a62c3efb14bd1a42fc610df664e29ed738",
+      "v8/tests/test_runner.py": "3f06ddaba7e76735976b6a364a21738616cf147ca785f40f5ae48b9141010119",
+      "v8/verify.py": "60b21dbde108f2c90d341406b41ae0e759d5613e4ed8b1c068e3ae182c7cf202"
+    },
+    "targets": [
+      "acetaldehyde",
+      "methanol",
+      "n_propanol",
+      "ethyl_acetate",
+      "isobutanol",
+      "acetal",
+      "n_butanol",
+      "isoamyl_alcohol",
+      "ethyl_butyrate",
+      "ethyl_lactate",
+      "ethyl_hexanoate"
+    ],
+    "version": "8.0.0"
+  },
+  "signature": "9cc6c66b2526b368173da1a4a58afe5f43a99323f49807a02d6fd973cb0ec16a"
+}

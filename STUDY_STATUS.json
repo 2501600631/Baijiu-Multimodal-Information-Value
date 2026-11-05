@@ -1,0 +1,28 @@
+{
+  "repository_version": "1.0.0",
+  "status": "all_requested_stages_complete",
+  "independent_bottles": 139,
+  "targets": 11,
+  "collections": {
+    "baseline": {
+      "completed_tasks": 210,
+      "expected_tasks": 210,
+      "prediction_rows": 2990724
+    },
+    "robustness": {
+      "completed_tasks": 255,
+      "expected_tasks": 255,
+      "prediction_rows": 376134
+    },
+    "structural": {
+      "completed_tasks": 15,
+      "expected_tasks": 15,
+      "prediction_rows": 9174
+    }
+  },
+  "total_completed_tasks": 480,
+  "total_prediction_rows": 3376032,
+  "all_eleven_targets_retained": true,
+  "external_validation": false,
+  "models_refitted_during_export": 0
+}
