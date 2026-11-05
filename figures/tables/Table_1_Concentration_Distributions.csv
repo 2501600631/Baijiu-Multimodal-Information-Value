@@ -1,0 +1,12 @@
+target,constituent,abbreviation,n,minimum,maximum,mean,sd,unit
+acetaldehyde,Acetaldehyde,AcH,139,0.032,0.27,0.0894748201438849,0.04030379759415849,g/L as supplied
+methanol,Methanol,MeOH,139,0.052,0.181,0.11130215827338129,0.030305128153656602,g/L as supplied
+n_propanol,n-Propanol,nPrOH,139,0.318,1.17,0.6083525179856114,0.15085374735630494,g/L as supplied
+ethyl_acetate,Ethyl acetate,EA,139,1.82,23.289,6.805705035971223,4.685749172855552,g/L as supplied
+isobutanol,Isobutanol,iBuOH,139,0.046,0.118,0.07322302158273382,0.015284283471548846,g/L as supplied
+acetal,Acetal,Acetal,139,0.091,0.595,0.2370287769784173,0.10299640787643956,g/L as supplied
+n_butanol,n-Butanol,nBuOH,139,0.271,0.848,0.5062014388489208,0.11015925098522072,g/L as supplied
+isoamyl_alcohol,Isoamyl alcohol,iAmOH,139,0.082,0.229,0.14402158273381294,0.029804548730236347,g/L as supplied
+ethyl_butyrate,Ethyl butyrate,EB,139,0.101,1.539,0.5156258992805757,0.3491672759162054,g/L as supplied
+ethyl_lactate,Ethyl lactate,EL,139,0.505,2.136,1.152179856115108,0.362736664409907,g/L as supplied
+ethyl_hexanoate,Ethyl hexanoate,EH,139,1.281,12.136,4.3291654676258995,2.2915062529272467,g/L as supplied

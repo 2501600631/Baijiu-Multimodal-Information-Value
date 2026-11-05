@@ -1,0 +1,164 @@
+{
+  "Fig1_prediction_map.pdf": {
+    "pages": 1,
+    "width_pt": 493.2283464567,
+    "height_pt": 538.5826771654,
+    "fonts": [
+      {
+        "name": "/ELUGPM+ArialMT",
+        "embedded": true
+      },
+      {
+        "name": "/ELUGPM+Arial-BoldMT",
+        "embedded": true
+      },
+      {
+        "name": "/GCWXDV+DejaVuSans-Oblique",
+        "embedded": true
+      },
+      {
+        "name": "/BMQQDV+DejaVuSans",
+        "embedded": true
+      }
+    ],
+    "all_fonts_embedded": true,
+    "text_extractable": true,
+    "tiff_dpi": [
+      600,
+      600
+    ],
+    "tiff_compression": "tiff_lzw"
+  },
+  "Fig2_modality_addition.pdf": {
+    "pages": 1,
+    "width_pt": 493.2283464567,
+    "height_pt": 538.5826771654,
+    "fonts": [
+      {
+        "name": "/ELUGPM+ArialMT",
+        "embedded": true
+      },
+      {
+        "name": "/ELUGPM+Arial-BoldMT",
+        "embedded": true
+      }
+    ],
+    "all_fonts_embedded": true,
+    "text_extractable": true,
+    "tiff_dpi": [
+      600,
+      600
+    ],
+    "tiff_compression": "tiff_lzw"
+  },
+  "Fig3_panel_acquisition.pdf": {
+    "pages": 1,
+    "width_pt": 493.2283464567,
+    "height_pt": 566.9291338583,
+    "fonts": [
+      {
+        "name": "/ELUGPM+ArialMT",
+        "embedded": true
+      },
+      {
+        "name": "/ELUGPM+Arial-BoldMT",
+        "embedded": true
+      }
+    ],
+    "all_fonts_embedded": true,
+    "text_extractable": true,
+    "tiff_dpi": [
+      600,
+      600
+    ],
+    "tiff_compression": "tiff_lzw"
+  },
+  "Fig4_sample_size.pdf": {
+    "pages": 1,
+    "width_pt": 493.2283464567,
+    "height_pt": 411.0236220472,
+    "fonts": [
+      {
+        "name": "/ELUGPM+ArialMT",
+        "embedded": true
+      },
+      {
+        "name": "/ELUGPM+Arial-BoldMT",
+        "embedded": true
+      }
+    ],
+    "all_fonts_embedded": true,
+    "text_extractable": true,
+    "tiff_dpi": [
+      600,
+      600
+    ],
+    "tiff_compression": "tiff_lzw"
+  },
+  "Fig5_selection_stability.pdf": {
+    "pages": 1,
+    "width_pt": 493.2283464567,
+    "height_pt": 481.8897637795,
+    "fonts": [
+      {
+        "name": "/ELUGPM+ArialMT",
+        "embedded": true
+      },
+      {
+        "name": "/ELUGPM+Arial-BoldMT",
+        "embedded": true
+      }
+    ],
+    "all_fonts_embedded": true,
+    "text_extractable": true,
+    "tiff_dpi": [
+      600,
+      600
+    ],
+    "tiff_compression": "tiff_lzw"
+  },
+  "Fig6_workflow_and_nir.pdf": {
+    "pages": 1,
+    "width_pt": 493.2283464567,
+    "height_pt": 510.2362204724,
+    "fonts": [
+      {
+        "name": "/ELUGPM+ArialMT",
+        "embedded": true
+      },
+      {
+        "name": "/ELUGPM+Arial-BoldMT",
+        "embedded": true
+      }
+    ],
+    "all_fonts_embedded": true,
+    "text_extractable": true,
+    "tiff_dpi": [
+      600,
+      600
+    ],
+    "tiff_compression": "tiff_lzw"
+  },
+  "Study_Overview.pdf": {
+    "pages": 1,
+    "width_pt": 376.4409448819,
+    "height_pt": 150.5196850394,
+    "fonts": [
+      {
+        "name": "/ELUGPM+ArialMT",
+        "embedded": true
+      },
+      {
+        "name": "/ELUGPM+Arial-BoldMT",
+        "embedded": true
+      }
+    ],
+    "all_fonts_embedded": true,
+    "text_extractable": true,
+    "tiff_dpi": [
+      600,
+      600
+    ],
+    "tiff_compression": "tiff_lzw"
+  }
+}

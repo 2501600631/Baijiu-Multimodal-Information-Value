@@ -1,0 +1,49 @@
+{
+  "source_files": [
+    {
+      "relative_path": "benchmark/target_metrics_pooled.csv",
+      "sha256": "883ef1f3075d10d0143a4da3ca6396809916419964dc34d57e394ea751fc02c3"
+    },
+    {
+      "relative_path": "benchmark/nine_modality_addition_edges.csv",
+      "sha256": "c1cdeb40e0640f6c852a736cddc9d0979383eec0e9238b596f1a39c95fc57790"
+    },
+    {
+      "relative_path": "benchmark/macro_standardized_mse.csv",
+      "sha256": "320b2e37126679e0e3d04c4868dcfae80292f3e263d1e5010e33efe6e2e3160f"
+    },
+    {
+      "relative_path": "acquisition_union_by_task.csv",
+      "sha256": "f1542cf711fb44a7c00fdd0037b90db26fd03cc9153c22c4bca2555b8c9f5b0c"
+    },
+    {
+      "relative_path": "acquisition_union_frequency.csv",
+      "sha256": "15745df410c3b12ad23c485a8644851ff456e27831a911f9b1b2d8fb578213e9"
+    },
+    {
+      "relative_path": "learning/learning_macro_common_scale_by_repeat.csv",
+      "sha256": "e65a8640ad90673f48443e1301d6706e02e3ebc6a2317793abdcfa61acf82100"
+    },
+    {
+      "relative_path": "stability/refit_observed_ranges.csv",
+      "sha256": "b8e1d7a71d42209575ab5410e945c2e0f409551d13499c95374d1da918f40218"
+    },
+    {
+      "relative_path": "stability/effects_by_refit.csv",
+      "sha256": "1f78cdfa3b5acdc2aef0bd39c51f487dc1bebb8fc012fd09c827625e5d6cce3d"
+    },
+    {
+      "relative_path": "preprocessing/matched_workflow_effects.csv",
+      "sha256": "7f2c81a65c01ead0febb7bfc174ad3e3bfbab2176444c958220e3017b32e7bd1"
+    },
+    {
+      "relative_path": "controls/real_vs_shuffled_nir.csv",
+      "sha256": "cd34efa69afb03ca18eb2a5386a9f1777d2a71f97117cece51f90dbca97100b5"
+    }
+  ],
+  "pandas": "1.5.3",
+  "numpy": "1.23.5",
+  "matplotlib": "3.7.2",
+  "models_refitted": false,
+  "synthetic_result_values": false
+}

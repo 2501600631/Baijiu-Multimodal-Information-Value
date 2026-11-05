@@ -1,0 +1,15 @@
+stage,condition,training_size,model,acquisition_union,n_acquisition_modalities,n_tasks,fraction
+stability,enhanced,full,pls__panel_t005,uv+raman,2,69,0.92
+stability,enhanced,full,ridge__panel_t005,uv+raman,2,68,0.9066666666666666
+stability,enhanced,full,krr__panel_t005,uv+raman,2,68,0.9066666666666666
+stability,enhanced,full,sopls__panel_t005,uv+raman,2,60,0.8
+stability,enhanced,full,sopls__panel_t005,uv+raman+nir,3,14,0.18666666666666668
+stability,enhanced,full,krr__panel_t005,uv,1,2,0.02666666666666667
+stability,enhanced,full,ridge__panel_t005,uv,1,5,0.06666666666666667
+stability,enhanced,full,pls__panel_t005,uv+raman+nir,3,4,0.05333333333333334
+stability,enhanced,full,krr__panel_t005,uv+nir,2,4,0.05333333333333334
+stability,enhanced,full,pls__panel_t005,raman,1,1,0.013333333333333334
+stability,enhanced,full,sopls__panel_t005,uv+nir,2,1,0.013333333333333334
+stability,enhanced,full,ridge__panel_t005,uv+raman+nir,3,2,0.02666666666666667
+stability,enhanced,full,krr__panel_t005,uv+raman+nir,3,1,0.013333333333333334
+stability,enhanced,full,pls__panel_t005,uv+nir,2,1,0.013333333333333334

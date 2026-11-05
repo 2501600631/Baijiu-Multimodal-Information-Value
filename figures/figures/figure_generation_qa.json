@@ -1,0 +1,114 @@
+{
+  "Fig1_prediction_map": {
+    "dimensions_mm": [
+      174,
+      190
+    ],
+    "source_data_files": [
+      "Source_Data/Fig1_prediction_map.csv"
+    ],
+    "data_generated": false,
+    "model_refitted": false,
+    "raster_dpi": 600,
+    "pdf_fonts_embedded": true,
+    "source_checks": "Exact source values retained; transformation formulas documented in caption",
+    "visual_audit": "pending",
+    "displayed_cells": 440
+  },
+  "Fig2_modality_addition": {
+    "dimensions_mm": [
+      174,
+      190
+    ],
+    "source_data_files": [
+      "Source_Data/Fig2_modality_addition.csv"
+    ],
+    "data_generated": false,
+    "model_refitted": false,
+    "raster_dpi": 600,
+    "pdf_fonts_embedded": true,
+    "source_checks": "Exact source values retained; transformation formulas documented in caption",
+    "visual_audit": "pending",
+    "displayed_cells": 396
+  },
+  "Fig3_panel_acquisition": {
+    "dimensions_mm": [
+      174,
+      200
+    ],
+    "source_data_files": [
+      "Source_Data/Fig3_panel_acquisition_summary.csv",
+      "Source_Data/Fig3_panel_acquisition_acquisition_tasks.csv"
+    ],
+    "data_generated": false,
+    "model_refitted": false,
+    "raster_dpi": 600,
+    "pdf_fonts_embedded": true,
+    "source_checks": "Exact source values retained; transformation formulas documented in caption",
+    "visual_audit": "pending"
+  },
+  "Fig4_sample_size": {
+    "dimensions_mm": [
+      174,
+      145
+    ],
+    "source_data_files": [
+      "Source_Data/Fig4_sample_size.csv"
+    ],
+    "data_generated": false,
+    "model_refitted": false,
+    "raster_dpi": 600,
+    "pdf_fonts_embedded": true,
+    "source_checks": "Exact source values retained; transformation formulas documented in caption",
+    "visual_audit": "pending"
+  },
+  "Fig5_selection_stability": {
+    "dimensions_mm": [
+      174,
+      170
+    ],
+    "source_data_files": [
+      "Source_Data/Fig5_selection_stability_mask_frequencies.csv",
+      "Source_Data/Fig5_selection_stability_target_ranges.csv",
+      "Source_Data/Fig5_selection_stability_refit_effects.csv"
+    ],
+    "data_generated": false,
+    "model_refitted": false,
+    "raster_dpi": 600,
+    "pdf_fonts_embedded": true,
+    "source_checks": "Exact source values retained; transformation formulas documented in caption",
+    "visual_audit": "pending"
+  },
+  "Fig6_workflow_and_nir": {
+    "dimensions_mm": [
+      174,
+      180
+    ],
+    "source_data_files": [
+      "Source_Data/Fig6_workflow_and_nir_workflow_effects.csv",
+      "Source_Data/Fig6_workflow_and_nir_shuffled_nir_controls.csv"
+    ],
+    "data_generated": false,
+    "model_refitted": false,
+    "raster_dpi": 600,
+    "pdf_fonts_embedded": true,
+    "source_checks": "Exact source values retained; transformation formulas documented in caption",
+    "visual_audit": "pending",
+    "color_scale_abs_limit": 30
+  },
+  "Study_Overview": {
+    "dimensions_mm": [
+      132.8,
+      53.1
+    ],
+    "source_data_files": [
+      "Source_Data/Study_Overview_summary.csv"
+    ],
+    "data_generated": false,
+    "model_refitted": false,
+    "raster_dpi": 600,
+    "pdf_fonts_embedded": true,
+    "source_checks": "Exact source values retained; transformation formulas documented in caption",
+    "visual_audit": "pending"
+  }
+}

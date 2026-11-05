@@ -1,0 +1,5 @@
+algorithm,p5_vs_three_modality_macro_mse_gain_pct,bootstrap_p5_uv_raman_frequency_pct
+pls,2.7711783792122913,92
+ridge,3.736474515811461,90.666666666666657
+krr,3.8183194954446109,90.666666666666657
+sopls,6.4845264451399265,80
