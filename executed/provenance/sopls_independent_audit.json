@@ -1,0 +1,14 @@
+{
+  "real_data_fitted": false,
+  "synthetic_samples": 70,
+  "synthetic_evaluation_rows": 12,
+  "checks": {
+    "evaluation_batch_composition_invariant": true,
+    "evaluation_extreme_rows_do_not_refit": true,
+    "spectral_baseline_offset_transfer_invariant": true,
+    "response_affine_transfer_correct": true
+  },
+  "maximum_spectral_offset_prediction_difference": 4.263256414560601e-14,
+  "algorithm_total_active_components": 6,
+  "review_scope": "Independent SO-PLS transfer-equation check; source engine and preprocessing files were not edited"
+}

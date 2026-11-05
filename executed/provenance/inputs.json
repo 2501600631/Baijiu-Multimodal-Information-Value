@@ -1,0 +1,40 @@
+{
+  "converted_input_sha256": {
+    "chemistry.csv": "5b0ad0904b623cbfc5e72b54f7451854132015cc021dbab65e973b75019f4907",
+    "outer_splits.json": "5f6456d6c5028cd9bff6c8f250d1ca56701853410cbc5f7d9c05f724b664a200",
+    "spectra_nir.npz": "a5a7bf6556a3004f7a2032111de19f6f01405629f642404829cb0b7d59df0600",
+    "spectra_raman.npz": "db827fea8f4bb59c95aa0e8263f88daf27a2587f42169aeb9bfdfe274f4eb95c",
+    "spectra_uv.npz": "340d7ffc25526acc260461b63d895284b92dca122c0375c1e7d163e6e7886a3b"
+  },
+  "legacy_source_workbooks": {
+    "uv": {
+      "original_workbook_sha256": "6a5c345d594fa8e34cc2a35a2d23d3968750c38f34a1268a46061adeb7a52598",
+      "converted_filename": "spectra_uv.npz",
+      "n_bottles": 139,
+      "n_features": 911
+    },
+    "raman": {
+      "original_workbook_sha256": "3e9e86dce159cd0e5838574811c2336f3d3fb818f39b76843a6f7bfbe4752f02",
+      "converted_filename": "spectra_raman.npz",
+      "n_bottles": 139,
+      "n_features": 1019
+    },
+    "nir": {
+      "original_workbook_sha256": "7615fa9038bfe43194069517631bc95f33ca5aa992dd0e52fe6a2fae6c179c08",
+      "converted_filename": "spectra_nir.npz",
+      "n_bottles": 139,
+      "n_features": 1001
+    },
+    "chemistry": {
+      "original_workbook_sha256": "54d4b09b609913d2b0f7163b46daa7666d5a273ba2a1ae7a83a3a7e4e22502a4",
+      "converted_filename": "chemistry.csv"
+    }
+  },
+  "conversion": {
+    "all_spectral_values_bitwise_equal": true,
+    "all_axis_values_bitwise_equal": true,
+    "all_concentrations_bitwise_equal": true,
+    "bottle_identity_and_order_equal": true,
+    "no_model_refitted": true
+  }
+}

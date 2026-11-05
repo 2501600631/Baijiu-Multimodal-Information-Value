@@ -1,0 +1,59 @@
+{
+  "uv": {
+    "n_points": 911,
+    "minimum": 190.0,
+    "maximum": 1100.0,
+    "median_interval": 1.0,
+    "minimum_interval": 1.0,
+    "maximum_interval": 1.0,
+    "uniform": true,
+    "first_points": [
+      190.0,
+      191.0,
+      192.0,
+      193.0,
+      194.0,
+      195.0,
+      196.0,
+      197.0
+    ]
+  },
+  "raman": {
+    "n_points": 1019,
+    "minimum": 21.6323,
+    "maximum": 3002.1052,
+    "median_interval": 2.841000000000008,
+    "minimum_interval": 2.0239000000001397,
+    "maximum_interval": 4.1876999999999995,
+    "uniform": false,
+    "first_points": [
+      21.6323,
+      25.82,
+      30.0043,
+      34.1851,
+      38.3624,
+      42.5363,
+      46.7068,
+      50.8738
+    ]
+  },
+  "nir": {
+    "n_points": 1001,
+    "minimum": 4000.0,
+    "maximum": 12000.0,
+    "median_interval": 8.0,
+    "minimum_interval": 8.0,
+    "maximum_interval": 8.0,
+    "uniform": true,
+    "first_points": [
+      4000.0,
+      4008.0,
+      4016.0,
+      4024.0,
+      4032.0,
+      4040.0,
+      4048.0,
+      4056.0
+    ]
+  }
+}
