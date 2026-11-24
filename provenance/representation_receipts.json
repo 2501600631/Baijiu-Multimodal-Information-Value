@@ -4,7 +4,7 @@
     {
       "path": ".gitignore",
       "source_sha256": "19b2b8c20bef5fbb6adefd71e5867901a703408ce289db1a53d61e85810ac8c4",
-      "public_sha256": "4a55e29242725605bc447cb74cacbe2b13fe0387dc52c05b43263f8151d3a0e4",
+      "public_sha256": "ec129aaac5f0516cdf5ec585d4e609fa7d8be01be2cb6f876c9bc42ece958a32",
       "byte_identical": false
     },
     {
@@ -20,15 +20,9 @@
       "byte_identical": false
     },
     {
-      "path": "CHECKSUMS.sha256",
-      "source_sha256": "94ab916444dcc72f6549dfe5ceaf899f125cdaa520a3e3c4d736f8a3b31cfc8e",
-      "public_sha256": "b41c3f5bf0d4c24275529c498354eee590d661ad1147f85006ecf1eb3cf7e7b4",
-      "byte_identical": false
-    },
-    {
       "path": "CITATION_METADATA.md",
       "source_sha256": "048f30438db03ae86e7e23b0e449c1a1121be785e4c600cad640bfab8e6dc866",
-      "public_sha256": "add6e9b98a73cb3c4d532849941597d25056c966759c826ce868dc54ce210e00",
+      "public_sha256": "8225990d5bcfb1498c9dc4617baaf9d200597fc90fca8912c137a866a224573b",
       "byte_identical": false
     },
     {
@@ -1136,5 +1130,6 @@
       "byte_identical": false
     }
   ],
-  "restricted_files_withheld": 594
+  "restricted_files_withheld": 594,
+  "self_reference_note": "CHECKSUMS.sha256 is the distribution inventory and therefore excluded from this receipt to avoid a circular digest."
 }
