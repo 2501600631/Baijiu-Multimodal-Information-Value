@@ -1,0 +1,22 @@
+{
+  "status": "pass",
+  "synthetic_unit_tests": 57,
+  "synthetic_test_runtime_seconds": 59.08,
+  "all_synthetic_tests_passed": true,
+  "point_entrypoint_full_prepare_tasks": {
+    "benchmark": 15,
+    "learning": 30,
+    "preprocessing": 45,
+    "stability": 75,
+    "controls": 45
+  },
+  "point_entrypoint_quick_prepare_tasks": {
+    "benchmark": 2,
+    "learning": 2,
+    "preprocessing": 6,
+    "stability": 2,
+    "controls": 2
+  },
+  "real_model_fits_performed_for_release": 0,
+  "validation_date": "2026-11-03"
+}

@@ -1,0 +1,230 @@
+{
+  "model_fits": 0,
+  "records": [
+    {
+      "file": "benchmark_r0_f0_cenhanced_nfull_b-1.json.gz",
+      "verified": true,
+      "available_pair_candidates": 804,
+      "selected_counts": [
+        15,
+        15,
+        21,
+        21,
+        90,
+        90,
+        30,
+        30
+      ]
+    },
+    {
+      "file": "benchmark_r0_f1_cenhanced_nfull_b-1.json.gz",
+      "verified": true,
+      "available_pair_candidates": 804,
+      "selected_counts": [
+        15,
+        15,
+        21,
+        21,
+        90,
+        90,
+        30,
+        30
+      ]
+    },
+    {
+      "file": "benchmark_r0_f2_cenhanced_nfull_b-1.json.gz",
+      "verified": true,
+      "available_pair_candidates": 804,
+      "selected_counts": [
+        15,
+        15,
+        21,
+        21,
+        90,
+        90,
+        30,
+        30
+      ]
+    },
+    {
+      "file": "benchmark_r0_f3_cenhanced_nfull_b-1.json.gz",
+      "verified": true,
+      "available_pair_candidates": 804,
+      "selected_counts": [
+        15,
+        15,
+        21,
+        21,
+        90,
+        90,
+        30,
+        30
+      ]
+    },
+    {
+      "file": "benchmark_r0_f4_cenhanced_nfull_b-1.json.gz",
+      "verified": true,
+      "available_pair_candidates": 804,
+      "selected_counts": [
+        15,
+        15,
+        21,
+        21,
+        90,
+        90,
+        30,
+        30
+      ]
+    },
+    {
+      "file": "benchmark_r1_f0_cenhanced_nfull_b-1.json.gz",
+      "verified": true,
+      "available_pair_candidates": 804,
+      "selected_counts": [
+        15,
+        15,
+        21,
+        21,
+        90,
+        90,
+        30,
+        30
+      ]
+    },
+    {
+      "file": "benchmark_r1_f1_cenhanced_nfull_b-1.json.gz",
+      "verified": true,
+      "available_pair_candidates": 804,
+      "selected_counts": [
+        15,
+        15,
+        21,
+        21,
+        90,
+        90,
+        30,
+        30
+      ]
+    },
+    {
+      "file": "benchmark_r1_f2_cenhanced_nfull_b-1.json.gz",
+      "verified": true,
+      "available_pair_candidates": 804,
+      "selected_counts": [
+        15,
+        15,
+        21,
+        21,
+        90,
+        90,
+        30,
+        30
+      ]
+    },
+    {
+      "file": "benchmark_r1_f3_cenhanced_nfull_b-1.json.gz",
+      "verified": true,
+      "available_pair_candidates": 804,
+      "selected_counts": [
+        15,
+        15,
+        21,
+        21,
+        90,
+        90,
+        30,
+        30
+      ]
+    },
+    {
+      "file": "benchmark_r1_f4_cenhanced_nfull_b-1.json.gz",
+      "verified": true,
+      "available_pair_candidates": 804,
+      "selected_counts": [
+        15,
+        15,
+        21,
+        21,
+        90,
+        90,
+        30,
+        30
+      ]
+    },
+    {
+      "file": "benchmark_r2_f0_cenhanced_nfull_b-1.json.gz",
+      "verified": true,
+      "available_pair_candidates": 804,
+      "selected_counts": [
+        15,
+        15,
+        21,
+        21,
+        90,
+        90,
+        30,
+        30
+      ]
+    },
+    {
+      "file": "benchmark_r2_f1_cenhanced_nfull_b-1.json.gz",
+      "verified": true,
+      "available_pair_candidates": 804,
+      "selected_counts": [
+        15,
+        15,
+        21,
+        21,
+        90,
+        90,
+        30,
+        30
+      ]
+    },
+    {
+      "file": "benchmark_r2_f2_cenhanced_nfull_b-1.json.gz",
+      "verified": true,
+      "available_pair_candidates": 804,
+      "selected_counts": [
+        15,
+        15,
+        21,
+        21,
+        90,
+        90,
+        30,
+        30
+      ]
+    },
+    {
+      "file": "benchmark_r2_f3_cenhanced_nfull_b-1.json.gz",
+      "verified": true,
+      "available_pair_candidates": 804,
+      "selected_counts": [
+        15,
+        15,
+        21,
+        21,
+        90,
+        90,
+        30,
+        30
+      ]
+    },
+    {
+      "file": "benchmark_r2_f4_cenhanced_nfull_b-1.json.gz",
+      "verified": true,
+      "available_pair_candidates": 804,
+      "selected_counts": [
+        15,
+        15,
+        21,
+        21,
+        90,
+        90,
+        30,
+        30
+      ]
+    }
+  ]
+}

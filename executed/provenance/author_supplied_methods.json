@@ -1,0 +1,22 @@
+{
+  "sample_supplier": "Yibin Jinxilai Liquor Industry Co., Ltd.",
+  "baijiu_category": "Strong-aroma Baijiu",
+  "sampling_month": "2026-07",
+  "independently_bottled": true,
+  "technical_spectral_repeats": 3,
+  "spectral_summary": "Arithmetic mean spectrum per bottle and modality",
+  "temperature_celsius": [
+    20,
+    25
+  ],
+  "cuvette_path_length_mm": 1,
+  "instruments": {
+    "raman": "ACCUMAN, Ocean Optics, USA",
+    "uv_vis": "T600, Beijing Purkinje General Instrument Co., Ltd., China",
+    "nir": "N70 FT-NIR, Hanon Advanced Technology Group Co., Ltd., China"
+  },
+  "reference_method": "GC-MS with DB-WAX 60 m x 0.25 mm x 0.25 micrometre, triplicate mean",
+  "declaration_source": "Information explicitly supplied by the author in this conversation on 2026-10-31",
+  "results_recomputed": false,
+  "measurements_changed": false
+}

@@ -1,0 +1,182 @@
+{
+  "version": "V8 NIR marginal value and selection stability",
+  "profile": "full",
+  "release_version": "8.0.0",
+  "study_status": "Retrospective extension of the previously examined 139-bottle cohort; no new external data",
+  "expected_bottles": 139,
+  "repeats": 3,
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "seed": 20261029,
+  "algorithms": [
+    "pls",
+    "ridge",
+    "krr",
+    "sopls"
+  ],
+  "learning_sizes": [
+    40,
+    70
+  ],
+  "bootstrap_refits": 5,
+  "panel_tolerances": [
+    0,
+    0.02,
+    0.05,
+    0.1
+  ],
+  "preprocessing_options": {
+    "uv": [
+      "raw"
+    ],
+    "raman": [
+      "raw",
+      "snv",
+      "baseline_snv"
+    ],
+    "nir": [
+      "raw",
+      "snv",
+      "sg1"
+    ]
+  },
+  "sopls_preprocessing_options": {
+    "uv": [
+      "raw"
+    ],
+    "raman": [
+      "raw",
+      "snv",
+      "baseline_snv"
+    ],
+    "nir": [
+      "raw",
+      "snv",
+      "sg1"
+    ]
+  },
+  "preprocessing_settings": {
+    "baseline_lambda": 100000,
+    "baseline_asymmetry": 0.01,
+    "baseline_iterations": 10,
+    "sg_window": 11,
+    "sg_polyorder": 2
+  },
+  "grid": {
+    "pls_components": [
+      2,
+      5,
+      10,
+      15,
+      20
+    ],
+    "ridge_alphas": [
+      0.0001,
+      0.001,
+      0.01,
+      0.1,
+      1,
+      10,
+      100
+    ],
+    "krr_alphas": [
+      0.0001,
+      0.001,
+      0.01,
+      0.1,
+      1,
+      10
+    ],
+    "krr_gammas": [
+      0.01,
+      0.1,
+      0.3,
+      1,
+      3
+    ],
+    "sopls_components": [
+      1,
+      2,
+      3,
+      5,
+      10
+    ]
+  },
+  "legacy_grid": {
+    "snv": [
+      false,
+      true
+    ],
+    "pls_components": [
+      2,
+      5,
+      10
+    ],
+    "ridge_alphas": [
+      0.01,
+      0.1,
+      1,
+      10
+    ],
+    "krr_alphas": [
+      0.01,
+      0.1,
+      1
+    ],
+    "krr_gammas": [
+      0.3,
+      1,
+      3
+    ]
+  },
+  "summary_make_figures": false,
+  "target_weighting": "All eleven endpoints equally weighted after receiving-training response variance standardization",
+  "freeze_rule": "Freeze this configuration and retain every target, model, condition and null or adverse outcome.",
+  "physical_preprocessing_scope": "Numerical sensitivity candidates; source units and instrument settings still require record confirmation. No water or ethanol subtraction or hard cropping.",
+  "panel_scope": "Shared acquisition subset. Tolerances are predictive-error sensitivities, not clinically or analytically justified noninferiority margins.",
+  "sopls_scope": "Single-response SO-PLS with all block orders and uniform declared components perblock; same physical preprocessing options as other algorithms. Total latent dimension can differ across masks.",
+  "primary_target": null,
+  "statistical_bootstrap_draws": 2000,
+  "statistics_seed": 20261104,
+  "inference_scope": "Paired conditional fixed-prediction intervals; corrected repeated-CV tests are approximate sensitivity analyses",
+  "v8": {
+    "nir_weights": [
+      0,
+      0.25,
+      1,
+      4
+    ],
+    "nir_interval_regions": 3,
+    "balanced_draws": 5,
+    "balanced_seed_offset": 1700000,
+    "weight_bootstrap_refits": 5,
+    "residual_base_alphas": [
+      0.01,
+      0.1,
+      1,
+      10
+    ],
+    "residual_correction_alphas": [
+      0.01,
+      0.1,
+      1,
+      10
+    ],
+    "residual_multipliers": [
+      0,
+      0.5,
+      1
+    ],
+    "residual_subfolds": 3,
+    "new_conditions": [
+      "unscaled",
+      "nir_extended",
+      "nir_intervals",
+      "balanced_budget",
+      "nir_weight",
+      "residual",
+      "nir_weight_learning",
+      "nir_weight_stability"
+    ]
+  }
+}

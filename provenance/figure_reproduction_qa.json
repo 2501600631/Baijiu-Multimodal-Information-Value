@@ -1,0 +1,42 @@
+{
+  "status": "pass",
+  "figures": [
+    {
+      "figure": "Fig1_prediction_map.png",
+      "independently_regenerated_from_recorded_tables": true,
+      "pixel_identical_to_audited_artwork": true
+    },
+    {
+      "figure": "Fig2_modality_addition.png",
+      "independently_regenerated_from_recorded_tables": true,
+      "pixel_identical_to_audited_artwork": true
+    },
+    {
+      "figure": "Fig3_panel_acquisition.png",
+      "independently_regenerated_from_recorded_tables": true,
+      "pixel_identical_to_audited_artwork": true
+    },
+    {
+      "figure": "Fig4_sample_size.png",
+      "independently_regenerated_from_recorded_tables": true,
+      "pixel_identical_to_audited_artwork": true
+    },
+    {
+      "figure": "Fig5_selection_stability.png",
+      "independently_regenerated_from_recorded_tables": true,
+      "pixel_identical_to_audited_artwork": true
+    },
+    {
+      "figure": "Fig6_workflow_and_nir.png",
+      "independently_regenerated_from_recorded_tables": true,
+      "pixel_identical_to_audited_artwork": true
+    },
+    {
+      "figure": "Study_Overview.png",
+      "independently_regenerated_from_recorded_tables": true,
+      "pixel_identical_to_audited_artwork": true
+    }
+  ],
+  "no_models_refitted": true,
+  "quantitative_values_not_synthesized": true
+}

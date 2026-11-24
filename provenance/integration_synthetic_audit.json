@@ -1,0 +1,83 @@
+{
+  "status": "pass",
+  "scientific_real_data_fits": 0,
+  "synthetic_conditions": [
+    {
+      "condition": "unscaled",
+      "model_count": 8,
+      "prediction_rows": 6160,
+      "n_targets": 11,
+      "n_training_rows": 69,
+      "n_unique_training_bottles": 69,
+      "zero_nir_effective_modalities": 2
+    },
+    {
+      "condition": "nir_extended",
+      "model_count": 8,
+      "prediction_rows": 6160,
+      "n_targets": 11,
+      "n_training_rows": 69,
+      "n_unique_training_bottles": 69,
+      "zero_nir_effective_modalities": 2
+    },
+    {
+      "condition": "nir_intervals",
+      "model_count": 8,
+      "prediction_rows": 6160,
+      "n_targets": 11,
+      "n_training_rows": 69,
+      "n_unique_training_bottles": 69,
+      "zero_nir_effective_modalities": 2
+    },
+    {
+      "condition": "balanced_budget",
+      "model_count": 8,
+      "prediction_rows": 6160,
+      "n_targets": 11,
+      "n_training_rows": 69,
+      "n_unique_training_bottles": 69,
+      "zero_nir_effective_modalities": 2
+    },
+    {
+      "condition": "nir_weight",
+      "model_count": 2,
+      "prediction_rows": 1540,
+      "n_targets": 11,
+      "n_training_rows": 69,
+      "n_unique_training_bottles": 69,
+      "zero_nir_effective_modalities": 2
+    },
+    {
+      "condition": "residual",
+      "model_count": 2,
+      "prediction_rows": 1540,
+      "n_targets": 11,
+      "n_training_rows": 69,
+      "n_unique_training_bottles": 69,
+      "zero_nir_effective_modalities": 2
+    },
+    {
+      "condition": "nir_weight_learning",
+      "model_count": 2,
+      "prediction_rows": 1540,
+      "n_targets": 11,
+      "n_training_rows": 40,
+      "n_unique_training_bottles": 40,
+      "zero_nir_effective_modalities": 2
+    },
+    {
+      "condition": "nir_weight_stability",
+      "model_count": 2,
+      "prediction_rows": 1540,
+      "n_targets": 11,
+      "n_training_rows": 69,
+      "n_unique_training_bottles": 43,
+      "zero_nir_effective_modalities": 2
+    }
+  ],
+  "full_plan_tasks": 255,
+  "full_plan_unique_cache_names": 255,
+  "evaluation_labels_do_not_affect_residual_predictions_or_selection": true,
+  "changed_truth_and_training_scales_rejected": true,
+  "all_eleven_targets_and_zero_weight_two_modality_counts_retained": true
+}

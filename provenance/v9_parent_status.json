@@ -1,0 +1,10 @@
+{
+  "parent_release": "8.0.0",
+  "new_release": "9.0.0",
+  "parent_full_run_completed_tasks": 255,
+  "parent_full_run_signature": "9cc6c66b2526b368173da1a4a58afe5f43a99323f49807a02d6fd973cb0ec16a",
+  "new_condition": "sopls_perblock",
+  "new_expected_tasks": 15,
+  "new_fitted_tasks": 0,
+  "old_executed_and_v8_sources_unchanged": true
+}

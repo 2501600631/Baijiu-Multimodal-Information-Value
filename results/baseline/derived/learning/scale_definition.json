@@ -1,0 +1,5 @@
+{
+  "common_scale_available": true,
+  "ordinary_macro_scale": "Each receiving-training subset target SD",
+  "common_scale": "Full outer-training target SD held fixed within each outer fold across training sizes; evaluation weights only, never model fitting, preprocessing, selection or interval construction"
+}

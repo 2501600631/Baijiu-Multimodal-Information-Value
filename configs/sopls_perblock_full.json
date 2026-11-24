@@ -1,0 +1,68 @@
+{
+  "expected_bottles": 139,
+  "repeats": 3,
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "seed": 20261029,
+  "sopls_preprocessing_options": {
+    "uv": [
+      "raw"
+    ],
+    "raman": [
+      "raw",
+      "snv",
+      "baseline_snv"
+    ],
+    "nir": [
+      "raw",
+      "snv",
+      "sg1"
+    ]
+  },
+  "preprocessing_settings": {
+    "baseline_lambda": 100000,
+    "baseline_asymmetry": 0.01,
+    "baseline_iterations": 10,
+    "sg_window": 11,
+    "sg_polyorder": 2
+  },
+  "statistical_bootstrap_draws": 2000,
+  "statistics_seed": 20261104,
+  "version": "9.0.0",
+  "condition": "sopls_perblock",
+  "profile": "full",
+  "freeze_scope": "Retrospective extension specified before its own outcomes; no external registration or new cohort",
+  "perblock": {
+    "components": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "masks": [
+      "uv+raman",
+      "uv+raman+nir"
+    ],
+    "orders": "All permutations in canonical uv, raman, nir order",
+    "selection": "Greedy forward block-prefix selection using pooled raw-unit inner threefold MSE independently for each target",
+    "preprocessing": "Same declared historical SO-PLS options; select complete order and preprocessing path by final-stage inner MSE",
+    "stage_tie": "Lowest pooled inner MSE then smaller current k; exact floating-point ties only",
+    "final_tie": "Lowest final-stage pooled inner MSE; lower sum(k); lexicographic ordered k vector; canonical block order; declared preprocessing order; path_id",
+    "refit": "Refit every complete prefix on each inner fitting partition, including orthogonalization and scaling; final chosen vector refit on the outer training partition",
+    "failure": "Any candidate or final fit error aborts the current task and the run; no outer-label fallback and no silent exclusion",
+    "completion": "All fifteen tasks and all eleven targets required; retain outcomes in either direction",
+    "score_scope": "Inner scores guide selection and are not unbiased performance estimates",
+    "complexity_scope": "Per-block allocation plus reduced component ceiling; not a matched-complexity test of raising the old ceiling"
+  },
+  "multiplicity": {
+    "primary_panel_family": 5,
+    "primary_target_family": 55,
+    "primary": "Historical PLS, Ridge, RBF-KRR, uniform SO-PLS and new per-block SO-PLS for U+R to U+R+N",
+    "secondary_panel_family": 2,
+    "secondary_target_family": 22,
+    "secondary": "Uniform versus per-block SO-PLS within each of the two fixed masks",
+    "scope": "Holm within each explicitly declared family; original recorded tables remain unchanged"
+  },
+  "external_validation": false,
+  "outer_labels_used_for_selection": false
+}

@@ -1,0 +1,28 @@
+{
+  "status": "pass",
+  "synthetic_tests": 18,
+  "failed_tests": 0,
+  "real_data_model_fits": 0,
+  "scalar_and_uniform_vector_predictions": "Bitwise equal for all two- and three-block orders and k=1,2,3,5",
+  "kernel_ast": "Frozen computational body identical after component-vector entry and per-block requested-count substitution only",
+  "heterogeneous_known_signal": "Six-dimensional noiseless held-out signal recovered with vector [1,2,3], MSE below1e-18",
+  "leakage_checks": [
+    "Inner-role training-only centering",
+    "Later-stage full-prefix refits",
+    "Evaluation spectra do not alter selections",
+    "Duplicate bottle groups remain together"
+  ],
+  "strict_failure_checks": [
+    "Any candidate kernel failure aborts",
+    "Invalid declared transform aborts despite valid alternative"
+  ],
+  "english_only": true,
+  "comments": 0,
+  "docstrings": 0,
+  "python_runtime": "3.8.3",
+  "source_hashes": {
+    "v9/sopls_vector.py": "b61322b3103be26b149752138ee6a8183c40f1af0f864f38611f497d30e1eadd",
+    "v9/engine.py": "9f4d362331dbde3ce5df5ec5cb9e122a9bc868964b057447498c663ca1469cef",
+    "v9/tests/test_engine.py": "f80b0fb5facadf01e1f7dac51efcb9713b00034dbbfe00530d2c0ee8e9b12034"
+  }
+}

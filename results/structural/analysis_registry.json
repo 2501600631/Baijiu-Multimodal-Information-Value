@@ -1,0 +1,122 @@
+{
+  "status": "complete_extension_postprocessed",
+  "completed_extension_tasks": 15,
+  "expected_extension_tasks": 15,
+  "n_independent_bottles": 139,
+  "n_targets": 11,
+  "source": "predictions.csv.gz",
+  "source_sha256": "bd377cfe7bc2471d5eebd97d61fd6bd2f1dbd19ddabfd0938ba81d176fa66fd1",
+  "historical_source": "results/baseline/benchmark/predictions.csv.gz",
+  "historical_source_sha256": "3d8f179173be2e0c28bc95b188d5bc49260ace2721e35d9e48761a59a4070d81",
+  "analysis_source_sha256": "b96e687e0e39714a75689baec0213a7cd8c336280ba54915b3b1fa0bda8dceed",
+  "model_fits_performed": 0,
+  "tables": {
+    "fold_target_metrics": {
+      "path": "derived/fold_target_metrics.csv",
+      "rows": 1650,
+      "sha256": "5332bf3f9460cb220b26d7832f4d60166b95692f4859ab81a390196c90f6d2fa"
+    },
+    "fold_panel_metrics": {
+      "path": "derived/fold_panel_metrics.csv",
+      "rows": 150,
+      "sha256": "b51db23e3156dde3dd1df06122e3e747837c3b2fc48fb696a66ecd9df8be1dce"
+    },
+    "pooled_target_metrics": {
+      "path": "derived/pooled_target_metrics.csv",
+      "rows": 110,
+      "sha256": "9d02e6ee786873fcda5cc87b909f7488a71b7bf3e00655ebe65187a27662b88a"
+    },
+    "parameter_selection_by_task_target": {
+      "path": "derived/parameter_selection_by_task_target.csv",
+      "rows": 660,
+      "sha256": "c1d0ca9ea2ef0085dcd117c8bdf6cd776ad8f8b27668469dc1b22486d0b58db4"
+    },
+    "selected_stage_scores": {
+      "path": "derived/selected_stage_scores.csv",
+      "rows": 825,
+      "sha256": "ed8f5e781c7a9b7c51039e94bbf41abc67ac831139b43b4dd53ccc3210b8da73"
+    },
+    "uniform_perblock_paired_task_parameters": {
+      "path": "derived/uniform_perblock_paired_task_parameters.csv",
+      "rows": 330,
+      "sha256": "2946ecd12311c6bbc793d2256907ae75ee037f7b02cc2ac9b4f34ba77d443632"
+    },
+    "uniform_perblock_task_comparison": {
+      "path": "derived/uniform_perblock_task_comparison.csv",
+      "rows": 30,
+      "sha256": "ea8e2a407442c8db0ff676c013f9392c6d11ad7e0244b3d2eb8a38f83d70d667"
+    },
+    "secondary_fixed_mask_task_comparison": {
+      "path": "derived/secondary_fixed_mask_task_comparison.csv",
+      "rows": 30,
+      "sha256": "561b70f05ac65bad7a91a0b563bf4ab53c866fdb811e01f206b96d7253221b41"
+    },
+    "paired_target_effects": {
+      "path": "derived/paired_target_effects.csv",
+      "rows": 77,
+      "sha256": "fe8d6a9e74546efde396fff400ce364d36c8cb5ef117e8e281077175299a6ae3"
+    },
+    "paired_panel_effects": {
+      "path": "derived/paired_panel_effects.csv",
+      "rows": 7,
+      "sha256": "ceb67bf846f190940554c04673ff808a97c966c2289aa939a24ea554f18fb27c"
+    },
+    "paired_task_comparison": {
+      "path": "derived/paired_task_comparison.csv",
+      "rows": 105,
+      "sha256": "56dd03d0d9fd47201e676bc59f8cc929d54175afa7740a9231a9e574f01dcbf4"
+    },
+    "target_conditional_intervals": {
+      "path": "derived/target_conditional_intervals.csv",
+      "rows": 77,
+      "sha256": "5b77878b77219ea13674e69eb80666048a5c19285de501112f200e5663a4236e"
+    },
+    "panel_conditional_intervals": {
+      "path": "derived/panel_conditional_intervals.csv",
+      "rows": 7,
+      "sha256": "768226a243c27f669f1189f6f5c6c36d33e2bcea1fd390e79b14cc99e9babe13"
+    },
+    "target_corrected_cv_joined_family": {
+      "path": "derived/target_corrected_cv_joined_family.csv",
+      "rows": 77,
+      "sha256": "1a07a6bb92852a978570e6522f1734ff1856b39484b4e433b096bc9310af89b9"
+    },
+    "panel_corrected_cv_joined_family": {
+      "path": "derived/panel_corrected_cv_joined_family.csv",
+      "rows": 7,
+      "sha256": "92c2e816a4490c104b58095597b90b10ca46f52c5a4fca5851747ba3c0c110c0"
+    },
+    "comparison_status": {
+      "path": "derived/comparison_status.csv",
+      "rows": 7,
+      "sha256": "f7bd93a4e80aed2c8988c169d5174d0497b8d54ffc2a408ef2495dbf44d03d0f"
+    }
+  },
+  "primary_holm_family": {
+    "panel": 5,
+    "target": 55,
+    "methods": [
+      "pls",
+      "ridge",
+      "krr",
+      "sopls_uniform",
+      "sopls_perblock"
+    ],
+    "contrast": "U+R to U+R+N"
+  },
+  "secondary_holm_family": {
+    "panel": 2,
+    "target": 22,
+    "contrast": "Uniform to per-block within U+R and U+R+N"
+  },
+  "conditional_bootstrap": {
+    "draws": 2000,
+    "seed": 20261104,
+    "draw_indices_sha256": "f2afe9ea0d8924eeb7d9bc3e9eec76274929b32fbef18942132b8cb6cbc2e30a",
+    "scope": "Conditional paired bottle bootstrap of frozen OOF losses; no refitting or simultaneous population-coverage claim",
+    "all_targets_and_models_share_indices": true
+  },
+  "historical_tables_overwritten": false,
+  "structural_scope": "Greedy per-block allocation with component grid 1,2,3,5 versus historical uniform grid 1,2,3,5,10; not an isolated upper-bound expansion",
+  "inference_scope": "Retrospective same-cohort structural extension; conditional intervals and approximate corrected-CV sensitivity; all directions retained"
+}

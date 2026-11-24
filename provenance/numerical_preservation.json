@@ -1,0 +1,50 @@
+{
+  "status": "pass",
+  "real_data_model_fits_during_export": 0,
+  "independent_bottles": 139,
+  "targets": 11,
+  "byte_identical_completed_task_caches": 0,
+  "all_task_payloads_and_signatures_original": true,
+  "byte_identical_numerical_input_files": [
+    {
+      "path": "data/english_measurement_exports/nir_measurements.xlsx",
+      "sha256": "05b8b98c7182f767dc5023424f0cee6f884ad944af66b70a3997d017b76465db"
+    },
+    {
+      "path": "data/english_measurement_exports/raman_measurements.xlsx",
+      "sha256": "d765b905356d80f97cf31a318524b552dd19426de8a0cdab69936224beaacd8f"
+    },
+    {
+      "path": "data/english_measurement_exports/uv_measurements.xlsx",
+      "sha256": "918430a9f05857fcd9858337b94e278bb5b2b38cff33ac10ef7bff9f98bea13d"
+    },
+    {
+      "path": "executed/data/spectra_nir.npz",
+      "sha256": "a5a7bf6556a3004f7a2032111de19f6f01405629f642404829cb0b7d59df0600"
+    },
+    {
+      "path": "executed/data/spectra_raman.npz",
+      "sha256": "db827fea8f4bb59c95aa0e8263f88daf27a2587f42169aeb9bfdfe274f4eb95c"
+    },
+    {
+      "path": "executed/data/spectra_uv.npz",
+      "sha256": "340d7ffc25526acc260461b63d895284b92dca122c0375c1e7d163e6e7886a3b"
+    }
+  ],
+  "byte_identical_prediction_tables": 0,
+  "byte_identical_figures": 0,
+  "total_completed_tasks": 0,
+  "total_task_prediction_records": 0,
+  "result_directions": "All favorable, zero and adverse outcomes retained",
+  "restricted_content_withheld": true,
+  "restriction_date": "2026-11-25",
+  "restriction_note": "Completed task caches and decomposed prediction tables were removed at the data owner’s request; the execution signature above remains the record of the completed numerical run.",
+  "pre_restriction_counts": {
+    "byte_identical_completed_task_caches": 480,
+    "byte_identical_prediction_tables": 7,
+    "byte_identical_numerical_input_files": 8,
+    "byte_identical_figures": 21,
+    "total_completed_tasks": 480,
+    "total_task_prediction_records": 3376032
+  }
+}

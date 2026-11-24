@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "model_fits_performed": 0,
+  "archived_target_gains_max_abs_difference": 1.0302869668521453e-13,
+  "target_conditional_rows": 396,
+  "panel_conditional_rows": 36,
+  "fixed_fold_target_rows": 4620,
+  "fixed_fold_panel_rows": 420,
+  "conditional_shared_draw_indices_sha256": "f2afe9ea0d8924eeb7d9bc3e9eec76274929b32fbef18942132b8cb6cbc2e30a",
+  "original_archived_prediction_sha256": "3d8f179173be2e0c28bc95b188d5bc49260ace2721e35d9e48761a59a4070d81",
+  "holm_target_family": 44,
+  "holm_panel_family": 4,
+  "panel_training_count_ranges_preserved": true,
+  "analysis_source_sha256": "ea8e60ee09b1e60810d52c4291514e607cdf3ac58e817487aa35633ffaf3bb25"
+}

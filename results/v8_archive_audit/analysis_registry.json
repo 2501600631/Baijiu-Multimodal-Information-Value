@@ -1,0 +1,101 @@
+{
+  "status": "archived_predictions_postprocessed",
+  "model_fits_performed": 0,
+  "analysis_source_sha256": "ea8e60ee09b1e60810d52c4291514e607cdf3ac58e817487aa35633ffaf3bb25",
+  "source": "results/baseline/benchmark/predictions.csv.gz",
+  "source_sha256": "3d8f179173be2e0c28bc95b188d5bc49260ace2721e35d9e48761a59a4070d81",
+  "n_independent_bottles": 139,
+  "n_prediction_visits_per_strategy_target": 417,
+  "fixed_fold_target_rows": 4620,
+  "fixed_fold_panel_rows": 420,
+  "tables": {
+    "archive_fixed_fold_target_metrics": {
+      "path": "derived/archive_fixed_fold_target_metrics.csv",
+      "rows": 4620,
+      "sha256": "de53d1ad758725e740c0678426599ef1ed4c33fe35510168c5caa3ffa3da3013"
+    },
+    "archive_fixed_fold_panel_metrics": {
+      "path": "derived/archive_fixed_fold_panel_metrics.csv",
+      "rows": 420,
+      "sha256": "06a3a93d9e0694c77d4505a7087a0e26151bf3b6c116e592eea5ddc044fbf736"
+    },
+    "archive_all_strategy_target_metrics": {
+      "path": "derived/archive_all_strategy_target_metrics.csv",
+      "rows": 583,
+      "sha256": "57bd58d4a388333582f028126f740ac0730a949abaae7a833455fe122a5a9cfc"
+    },
+    "archive_all_strategy_panel_by_repeat": {
+      "path": "derived/archive_all_strategy_panel_by_repeat.csv",
+      "rows": 159,
+      "sha256": "78d6ee950990ac065c9f651febeebb3feaeafc0599ceb825bc88dff322b26771"
+    },
+    "target_conditional_intervals": {
+      "path": "derived/target_conditional_intervals.csv",
+      "rows": 396,
+      "sha256": "1a019531f4aee35a9b69f0e2f2030ada0288d0f2f101729a34a280c8ebedc844"
+    },
+    "panel_conditional_intervals": {
+      "path": "derived/panel_conditional_intervals.csv",
+      "rows": 36,
+      "sha256": "ee9b1f0ed14028e020ddfa9298f46571f562a84e665ef4d277047ee55af5d15a"
+    },
+    "target_corrected_cv_sensitivity": {
+      "path": "derived/target_corrected_cv_sensitivity.csv",
+      "rows": 396,
+      "sha256": "34083daadc8fe2649a1fb79335243bec566382a3d2d7087b92adf7a8ba2f285a"
+    },
+    "panel_corrected_cv_sensitivity": {
+      "path": "derived/panel_corrected_cv_sensitivity.csv",
+      "rows": 36,
+      "sha256": "3a8df18ff745fd19794f30e27be6a811517d81d467cb0321b49bfdf3fe9cc43d"
+    },
+    "conditional_context_status": {
+      "path": "derived/conditional_context_status.csv",
+      "rows": 36,
+      "sha256": "3a7463baa5b03fedf80be18f78185d1913d3644d21a49d5fefb26c018af26975"
+    },
+    "archive_five_refit_observed_ranges": {
+      "path": "derived/archive_five_refit_observed_ranges.csv",
+      "rows": 1936,
+      "sha256": "f131fe0be769821808fc4149c8881be20bdbea489d18c5534bdbe62b4235397b"
+    },
+    "archive_acquisition_union_by_task": {
+      "path": "derived/archive_acquisition_union_by_task.csv",
+      "rows": 4680,
+      "sha256": "765d2b8fc02d7ca58b3c8d2d8b7a5f7e8322bf2f65cf1e59da311eefec0285a0"
+    },
+    "archive_acquisition_union_frequency": {
+      "path": "derived/archive_acquisition_union_frequency.csv",
+      "rows": 150,
+      "sha256": "06aa80fd8a9c8c3664478484bf4ccd305c851f97829b2af92382e3144a577bfb"
+    },
+    "archive_selection_frequency": {
+      "path": "derived/archive_selection_frequency.csv",
+      "rows": 1967,
+      "sha256": "0a43ced1eb0b1f8899dfab23346df4522e2760f10775682c67aa8990ca4ce5b3"
+    },
+    "concentration_summary": {
+      "path": "derived/concentration_summary.csv",
+      "rows": 11,
+      "sha256": "92c72ad16e5d4a35d0299d91fb0456b4c76a2e55d5d0d37636922a7ef8b218a0"
+    },
+    "spectral_dimensions_and_sample_ratios": {
+      "path": "derived/spectral_dimensions_and_sample_ratios.csv",
+      "rows": 35,
+      "sha256": "c8a7bec237d02a22ce3f0c2784946b0d120def03fc777b6b0f9b66e7293791ef"
+    }
+  },
+  "statistics": {
+    "n_bottles": 139,
+    "draws": 2000,
+    "seed": 20261104,
+    "draw_indices_sha256": "f2afe9ea0d8924eeb7d9bc3e9eec76274929b32fbef18942132b8cb6cbc2e30a",
+    "pairing": "One shared bottle draw index matrix for every target, model and comparison; all visits remain together",
+    "intervals": "Conditional paired bottle bootstrap of frozen OOF losses; no refitting, cross-bottle training dependence correction or multiplicity guarantee",
+    "corrected_cv": "Approximate corrected repeated-CV sensitivity; not an exact test and not independent external validation"
+  },
+  "source_results_unchanged": true,
+  "primary_outcome": "Equal mean of eleven training-variance-standardized squared prediction errors",
+  "delta_mse_direction": "after_minus_before; positive means adding NIR or applying the after strategy worsens prediction",
+  "target_gain_direction": "100*(1-RMSE_after/RMSE_before); positive means improvement"
+}

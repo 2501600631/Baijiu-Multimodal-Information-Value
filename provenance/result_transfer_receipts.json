@@ -1,0 +1,74 @@
+[
+  {
+    "source_relative_path": "derived/acquisition_union_by_task.csv",
+    "source_sha256": "03f2057cd8d8098902454d61da61e776a479e4630e98d4bfcc9d6e077ebd00a5",
+    "recorded_relative_path": "results/baseline/derived/acquisition_union_by_task.csv",
+    "recorded_sha256": "f1542cf711fb44a7c00fdd0037b90db26fd03cc9153c22c4bca2555b8c9f5b0c",
+    "scope_filter": "stage in benchmark, learning, preprocessing, stability, controls when stage exists",
+    "rows_before_scope_filter": 10350,
+    "recorded_rows": 9570
+  },
+  {
+    "source_relative_path": "derived/acquisition_union_frequency.csv",
+    "source_sha256": "34921fad0e4fac34f983623e0c4fa368ecc13f6688ce14fb8750c26233a6d577",
+    "recorded_relative_path": "results/baseline/derived/acquisition_union_frequency.csv",
+    "recorded_sha256": "15745df410c3b12ad23c485a8644851ff456e27831a911f9b1b2d8fb578213e9",
+    "scope_filter": "stage in benchmark, learning, preprocessing, stability, controls when stage exists",
+    "rows_before_scope_filter": 536,
+    "recorded_rows": 474
+  },
+  {
+    "source_relative_path": "derived/parameter_boundary_frequency.csv",
+    "source_sha256": "b9214aebd1e48bfc09f02005c719f25fe86b4640c5c2878161c19d81306ffd5b",
+    "recorded_relative_path": "results/baseline/derived/parameter_boundary_frequency.csv",
+    "recorded_sha256": "73b97cd3b290a2650be70a0827754f03e90cf22c9b5cd14a69277d11449c6d25",
+    "scope_filter": "stage in benchmark, learning, preprocessing, stability, controls when stage exists",
+    "rows_before_scope_filter": 517,
+    "recorded_rows": 452
+  },
+  {
+    "source_relative_path": "derived/preprocessing_selection_frequency.csv",
+    "source_sha256": "4782ab040104c1ec4a0e636200987e67bf1840639d6f59e1d2c3db16961a8c0a",
+    "recorded_relative_path": "results/baseline/derived/preprocessing_selection_frequency.csv",
+    "recorded_sha256": "9a3349622871a8ccef7d30a9b2eb97f7973db08bc456341273ee800c72331fce",
+    "scope_filter": "stage in benchmark, learning, preprocessing, stability, controls when stage exists",
+    "rows_before_scope_filter": 23827,
+    "recorded_rows": 20815
+  },
+  {
+    "source_relative_path": "derived/selected_parameter_records.csv",
+    "source_sha256": "7f3df8f362b3a68a0ad0f3109eb983fb0f864e2ace9d2554e7ec0452772e3c07",
+    "recorded_relative_path": "results/baseline/derived/selected_parameter_records.csv.gz",
+    "recorded_sha256": "2ce9ecc54b9246b557badf35da7aec058497b2687ab4e98291bf93cfbe255d3b",
+    "scope_filter": "stage in benchmark, learning, preprocessing, stability, controls when stage exists",
+    "rows_before_scope_filter": 145365,
+    "recorded_rows": 134640
+  },
+  {
+    "source_relative_path": "derived/selected_preprocessing_records.csv",
+    "source_sha256": "4fc0de6e19e5b3a9d5d6021411f0cecce2fb651d820d31ea88e1b081166faad8",
+    "recorded_relative_path": "results/baseline/derived/selected_preprocessing_records.csv.gz",
+    "recorded_sha256": "dfdf35ca4ec92935dfc2f001622f4905d584f5dbc6b18da86878e8cf0d2227ac",
+    "scope_filter": "stage in benchmark, learning, preprocessing, stability, controls when stage exists",
+    "rows_before_scope_filter": 113850,
+    "recorded_rows": 105270
+  },
+  {
+    "source_relative_path": "derived/selection_frequency.csv",
+    "source_sha256": "0c27a7cd1c4d17c5cbe0ab9c4a7638fd0740d961dea13faecc9af1aea31de68d",
+    "recorded_relative_path": "results/baseline/derived/selection_frequency.csv",
+    "recorded_sha256": "e110fa1074ca363d3669c36485a814d258ac05354baef42eb1b652566863f255",
+    "scope_filter": "stage in benchmark, learning, preprocessing, stability, controls when stage exists",
+    "rows_before_scope_filter": 6930,
+    "recorded_rows": 6124
+  },
+  {
+    "source_relative_path": "derived/sopls_order_selection_frequency.csv",
+    "source_sha256": "aa60101170ed986145cd445ca4b7373226daf76d669cbf85725833fae72428ed",
+    "recorded_relative_path": "results/baseline/derived/sopls_order_selection_frequency.csv",
+    "recorded_sha256": "440ae023f5da91a53ad103706b3b2332eff5bc9e341c478964d033b125ba2562",
+    "scope_filter": "stage in benchmark, learning, preprocessing, stability, controls when stage exists",
+    "rows_before_scope_filter": 2434,
+    "recorded_rows": 2037
+  }
+]

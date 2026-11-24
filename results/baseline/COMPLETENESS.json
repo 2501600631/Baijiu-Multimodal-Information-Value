@@ -1,0 +1,38 @@
+{
+  "status": "all_recorded_point_stages_complete",
+  "result_scope": [
+    "benchmark",
+    "learning",
+    "preprocessing",
+    "stability",
+    "controls"
+  ],
+  "source_execution_signature": "c7c4bd84803d5d3f0fd5670fc7355e99d387d1ec58713d3326e175fc856b7592",
+  "executed_tasks_in_source_study": 225,
+  "recorded_tasks": 210,
+  "excluded_completed_historical_tasks": 15,
+  "prediction_rows": 2990724,
+  "stages": {
+    "benchmark": {
+      "tasks": 15,
+      "prediction_rows": 243111
+    },
+    "learning": {
+      "tasks": 30,
+      "prediction_rows": 486222
+    },
+    "preprocessing": {
+      "tasks": 45,
+      "prediction_rows": 495396
+    },
+    "stability": {
+      "tasks": 75,
+      "prediction_rows": 1215555
+    },
+    "controls": {
+      "tasks": 45,
+      "prediction_rows": 550440
+    }
+  },
+  "models_refitted_for_release": false
+}
